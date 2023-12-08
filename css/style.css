@@ -684,3 +684,322 @@ h6,
 .single-pricing-plan-card:hover .pricing-box p {
     color: white
 }
+
+
+.testimonials-area {
+    background-color: #f7f7f7
+}
+
+.testimonials-area.testimonials-two-area {
+    background-color: transparent;
+    position: relative;
+    z-index: 1
+}
+
+.testimonials-area.testimonials-two-area .testimonials-3-shape {
+    position: absolute;
+    top: 147px;
+    right: 328px;
+    z-index: -1;
+    -webkit-animation: animationFramesOne 2s linear infinite;
+    animation: animationFramesOne 2s linear infinite
+}
+
+.single-testimonials-img {
+    position: relative;
+    z-index: 1
+}
+
+.single-testimonials-img .testimonials-bg-shape12 {
+    z-index: -1;
+    position: relative
+}
+
+.single-testimonials-img .testimonials-bg-shape12 img {
+    -webkit-animation: rotateme 25s linear infinite;
+    animation: rotateme 25s linear infinite
+}
+
+.single-testimonials-img .testimonials-main {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 83px;
+    text-align: center
+}
+
+.single-testimonials-img .testimonials-main img {
+    max-width: 328px;
+    border-radius: 100%
+}
+
+.single-testimonials-img .testimonials-img2 {
+    position: absolute;
+    left: -35px;
+    top: 77px
+}
+
+.single-testimonials-img .testimonials-img2 img {
+    border-radius: 100%;
+    max-width: 107px;
+    -webkit-animation: ripple 6s linear infinite;
+    animation: ripple 6s linear infinite
+}
+
+.single-testimonials-img .testimonials-img3 {
+    position: absolute;
+    right: 90px;
+    bottom: 35px
+}
+
+.single-testimonials-img .testimonials-img3 img {
+    border-radius: 100%;
+    max-width: 107px;
+    -webkit-animation: ripple 6s linear infinite;
+    animation: ripple 6s linear infinite
+}
+
+.single-testimonials-content {
+    padding-left: 10px
+}
+
+.single-testimonials-content .section-title p {
+    font-size: 18px
+}
+
+.testimonials-item img {
+    width: auto !important
+}
+
+.testimonials-item .testimonials-client {
+    margin-bottom: 40px
+}
+
+.testimonials-item .testimonials-client img {
+    max-width: 97px;
+    border-radius: 100%;
+    margin-right: 20px
+}
+
+.testimonials-item .testimonials-client .testimonials-text h3 {
+    font-size: 24px;
+    margin-bottom: 4px
+}
+
+.testimonials-item .testimonials-card {
+    background-color: var(--whiteColor);
+    padding: 33px 40px;
+    position: relative
+}
+
+.testimonials-item .testimonials-card.testimonials-card-two {
+    background: #fff;
+    -webkit-box-shadow: 0 0 30px rgba(85, 85, 85, .1);
+    box-shadow: 0 0 30px rgba(85, 85, 85, .1);
+    margin: 5px;
+    padding: 35px
+}
+
+.testimonials-item .testimonials-card.testimonials-card-two .quote-icon {
+    background-color: var(--mainColor)
+}
+
+.testimonials-item .testimonials-card.testimonials-card-two .quote-icon img {
+    -webkit-filter: brightness(10);
+    filter: brightness(10)
+}
+
+.testimonials-item .testimonials-card.testimonials-card-three {
+    background: #fff;
+    -webkit-box-shadow: 0 0 30px rgba(85, 85, 85, .1);
+    box-shadow: 0 0 30px rgba(85, 85, 85, .1);
+    padding: 35px;
+    margin-bottom: 30px;
+    border: 1px solid #f9f9f9
+}
+
+.testimonials-item .testimonials-card.testimonials-card-three .quote-icon {
+    background: rgba(247, 96, 49, .08);
+    -webkit-transition: var(--transition);
+    transition: var(--transition)
+}
+
+.testimonials-item .testimonials-card.testimonials-card-three .quote-icon-2 {
+    opacity: 0;
+    -webkit-transition: var(--transition);
+    transition: var(--transition)
+}
+
+.testimonials-item .testimonials-card.testimonials-card-three:hover .quote-icon-2 {
+    opacity: 1
+}
+
+.testimonials-item .testimonials-card.testimonials-card-three:hover .quote-icon {
+    background-color: var(--mainColor)
+}
+
+.testimonials-item .testimonials-card.testimonials-card-three:hover .quote-icon .quote1 {
+    opacity: 0
+}
+
+.testimonials-item .testimonials-card.testimonials-card-page {
+    background: #fff;
+    -webkit-box-shadow: 0 0 30px rgba(85, 85, 85, .1);
+    box-shadow: 0 0 30px rgba(85, 85, 85, .1);
+    position: relative;
+    margin-bottom: 30px
+}
+
+.testimonials-item .testimonials-card.testimonials-card-page .testimonials-client {
+    margin-bottom: 24px
+}
+
+.testimonials-item .testimonials-card.testimonials-card-page .quote-icon {
+    right: 40px;
+    top: 45px;
+    background-color: #fef2ef
+}
+
+.testimonials-item .testimonials-card.testimonials-card-page .quote-icon .quote1 {
+    -webkit-transition: var(--transition);
+    transition: var(--transition)
+}
+
+.testimonials-item .testimonials-card.testimonials-card-page .quote-icon .quote02 {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: var(--transition);
+    transition: var(--transition)
+}
+
+.testimonials-item .testimonials-card.testimonials-card-page:hover .quote-icon {
+    background-color: #fef2ef
+}
+
+.testimonials-item .testimonials-card.testimonials-card-page:hover .quote-icon .quote1 {
+    opacity: 0;
+    visibility: hidden
+}
+
+.testimonials-item .testimonials-card.testimonials-card-page:hover .quote-icon .quote02 {
+    opacity: 1;
+    visibility: visible
+}
+
+.testimonials-item .testimonials-card.testimonials-card-page:hover .quote-icon img {
+    -webkit-filter: none;
+    filter: none
+}
+
+.testimonials-item .testimonials-card .quote-icon {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: var(--whiteColor);
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    right: 33px;
+    top: -47px;
+    -webkit-transition: var(--transition);
+    transition: var(--transition)
+}
+
+.testimonials-item .testimonials-card .quote-icon img {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: var(--transition);
+    transition: var(--transition)
+}
+
+.testimonials-item .testimonials-card p {
+    font-size: 18px;
+    color: var(--headingColor)
+}
+
+.testimonials-item .testimonials-card:hover .quote-icon {
+    background-color: var(--oppositeColor)
+}
+
+.testimonials-item .testimonials-card:hover .quote-icon img {
+    -webkit-filter: brightness(10);
+    filter: brightness(10)
+}
+
+.testimonials-slider.owl-theme .owl-nav {
+    margin-top: 0 !important;
+    position: absolute;
+    right: -88px;
+    top: 16%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.testimonials-slider.owl-theme .owl-nav [class*=owl-] {
+    padding: 0 !important;
+    background: rgba(44, 178, 179, .18);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 54px;
+    height: 54px;
+    font-size: 30px;
+    color: var(--headingColor);
+    -webkit-transition: var(--transition);
+    transition: var(--transition)
+}
+
+.testimonials-slider.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: var(--oppositeColor);
+    color: var(--whiteColor)
+}
+
+.testimonials-three-slider.owl-theme .owl-nav {
+    margin-top: 0 !important
+}
+
+.testimonials-three-slider.owl-theme .owl-nav [class*=owl-] {
+    padding: 0 !important;
+    background: rgba(44, 178, 179, .18);
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 54px;
+    height: 54px;
+    line-height: 60px;
+    font-size: 30px;
+    color: var(--headingColor);
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    position: absolute;
+    left: -88px;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.testimonials-three-slider.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: var(--oppositeColor);
+    color: var(--whiteColor)
+}
+
+.testimonials-three-slider.owl-theme .owl-nav .owl-next {
+    left: auto;
+    right: -88px
+}
