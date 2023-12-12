@@ -36,12 +36,15 @@
     <link href="css/style.css" rel="stylesheet" />
 
     <!-- icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
 
     <!-- links -->
     <link rel="stylesheet" href="css/odometer.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="css/fancybox.min.css" />
     <link rel="stylesheet" href="css/scrollCue.css" />
@@ -101,8 +104,8 @@
     <!-- Navbar End -->
 
     <!-- Header Start -->
-    <div class="container-fluid hero-header bg-light py-5 mb-5">
-      <div class="container py-5">
+    <div class="container-fluid hero-header bg-light py-4 mb-5">
+      <div class="container py-4">
         <div class="row g-5 align-items-center">
           <div class="col-lg-6">
             <h1 class="display-5 mb-3 animated slideInDown">
@@ -140,7 +143,8 @@
         <div class="section-title">
           <span class="top-title">OUR FEATURES</span>
           <h2>
-            We are a leading, industry-recognized investment firm, gaining praise for our excellent performance.
+            We are a leading, industry-recognized investment firm, gaining
+            praise for our excellent performance.
           </h2>
         </div>
         <div class="row">
@@ -211,47 +215,103 @@
             </div>
           </div>
           <div class="container">
-            <div class="slider-wrapper">
-              <button
-                id="prev-slide"
-                class="slide-button material-symbols-rounded"
-              >
-              <i class="fa-solid fa-arrow-left"></i>
-              </button>
-              <ul class="image-list">
-                <img src="img/partner1.jpg" width="150px" alt="panther-logo" />
-                <img src="img/partner2.jpg" width="150px" alt="panther-logo" />
-                <img src="img/partner3.jpg" width="150px" alt="panther-logo" />
-                <img src="img/partner4.jpg" width="150px" alt="panther-logo" />
-                <img src="img/partner5.jpg" width="150px" alt="panther-logo" />
-                <img src="img/partner6.jpg" width="150px" alt="panther-logo" />
-                <img src="img/partner7.jpg" width="150px" alt="panther-logo" />
-                <img src="img/partner8.jpg" width="150px" alt="panther-logo" />
-                <img src="img/partner9.jpg" width="150px" alt="panther-logo" />
-              </ul>
-              <button
-                id="next-slide"
-                class="slide-button material-symbols-rounded"
-              >
-              <i class="fa-solid fa-arrow-right"></i>
-              </button>
-            </div>
-            <div class="slider-scrollbar">
-              <div class="scrollbar-track">
-                <div class="scrollbar-thumb"></div>
+            <div class="wrapper">
+              <div class="track">
+                <div class="logo">
+                  <img src="img/partner1.jpg" />
+                </div>
+                <div class="logo">
+                  <img src="img/partner2.jpg" />
+                </div>
+                <div class="logo">
+                  <img src="img/partner3.jpg" />
+                </div>
+                <div class="logo">
+                  <img src="img/partner4.jpg" />
+                </div>
+                <div class="logo">
+                  <img src="img/partner5.jpg" />
+                </div>
+                <div class="logo">
+                  <img src="img/partner6.jpg" />
+                </div>
+                <div class="logo">
+                  <img src="img/partner7.jpg" />
+                </div>
+                <div class="logo">
+                  <img src="img/partner8.jpg" />
+                </div>
+                <div class="logo">
+                  <img src="img/partner9.jpg" />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <style>
+      .wrapper {
+        background-color: #e1e2e2;
+        height: 130px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+      }
+
+      .wrapper:before,
+      .wrapper:after {
+        content: "";
+        position: absolute;
+        height: 130px;
+        width: 150px;
+        z-index: 2;
+      }
+
+      .wrapper:after {
+        right: 0;
+        top: 0;
+        transform: rotateZ(180deg);
+      }
+
+      .wrapper:before {
+        left: 0;
+        top: 0;
+      }
+
+      .wrapper .track {
+        display: flex;
+        width: calc(150px * 10);
+        animation: scroll 15s 0.5s linear infinite;
+      }
+
+      .wrapper .logo {
+        width: 100%;
+      }
+
+      .wrapper .logo img {
+        height: 90px;
+      }
+
+      @keyframes scroll {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(calc(-150px * 5));
+        }
+      }
+    </style>
 
     <!-- About Start -->
     <div class="container-xxl py-5">
       <div class="container">
         <div class="row g-5 align-items-center">
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <img class="img-fluid" src="img/hero_3.jpeg" alt="" />
+            <img class="img-fluid" src="img/hero_3-modified.png" alt="" />
           </div>
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="h-100">
@@ -274,7 +334,7 @@
                 provide an even more secure and reliable platform for crypto
                 trading.
               </p>
-              <h6 class="display-6">OUR FOCUS</h6>
+              <h6 class="display-6">Our Focus</h6>
               <div class="d-flex align-items-center mb-2">
                 <i
                   class="fa fa-check bg-light text-gold btn-sm-square rounded-circle me-3 fw-bold"
@@ -295,7 +355,7 @@
                   >S.M.A.R.T vision accomplishment on Currency Trading.</span
                 >
               </div>
-              <a class="btn bg-gold text-white py-3 px-4" href="">Read More</a>
+              <a class="btn bg-gold text-white py-3 px-4" href="">Join Us</a>
             </div>
           </div>
         </div>
@@ -312,7 +372,7 @@
             data-wow-delay="0.1s"
           >
             <img class="img-fluid mb-4" src="img/icon-9.png" alt="" />
-            <h1 class="display-4" data-toggle="counter-up">30</h1>
+            <h1 class="display-4" data-toggle="counter-up">27</h1>
             <p class="fs-5 text-gold mb-0">Today Transactions</p>
           </div>
           <div
@@ -320,7 +380,7 @@
             data-wow-delay="0.3s"
           >
             <img class="img-fluid mb-4" src="img/icon-10.png" alt="" />
-            <h1 class="display-4" data-toggle="counter-up">1000</h1>
+            <h1 class="display-4" data-toggle="counter-up">1050</h1>
             <p class="fs-5 text-gold mb-0">Monthly Transactions</p>
           </div>
           <div
@@ -328,7 +388,7 @@
             data-wow-delay="0.5s"
           >
             <img class="img-fluid mb-4" src="img/icon-2.png" alt="" />
-            <h1 class="display-4" data-toggle="counter-up">20000</h1>
+            <h1 class="display-4" data-toggle="counter-up">25002</h1>
             <p class="fs-5 text-gold mb-0">Total Transactions</p>
           </div>
         </div>
@@ -347,7 +407,7 @@
           <h1 class="display-6">Why Us!</h1>
           <p class="text-gold fs-5 mb-5">The Best In The crypto Industry</p>
         </div>
-        <div class="row g-5">
+        <div class="row g-5 d-flex align-items-center justify-content-center">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="d-flex align-items-start">
               <img
@@ -475,6 +535,20 @@
                         <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div> -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item bg-white p-5">
+              <img class="img-fluid mb-4" src="img/icon-2.png" alt="" />
+              <h5 class="mb-3">Bitcoin Escrow</h5>
+              <p>
+                Our company offers a secure and reliable Bitcoin escrow service,
+                designed to protect both buyers and sellers during transactions.
+                Whether you're making a large or complex purchase, our service
+                will ensure that the process goes smoothly and that all parties
+                involved are satisfied.
+              </p>
+              <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+            </div>
+          </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="service-item bg-white p-5">
               <img class="img-fluid mb-4" src="img/icon-9.png" alt="" />
@@ -505,20 +579,7 @@
               <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="service-item bg-white p-5">
-              <img class="img-fluid mb-4" src="img/icon-2.png" alt="" />
-              <h5 class="mb-3">Bitcoin Escrow</h5>
-              <p>
-                Our company offers a secure and reliable Bitcoin escrow service,
-                designed to protect both buyers and sellers during transactions.
-                Whether you're making a large or complex purchase, our service
-                will ensure that the process goes smoothly and that all parties
-                involved are satisfied.
-              </p>
-              <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
-            </div>
-          </div>
+
           <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item bg-white p-5">
                         <img class="img-fluid mb-4" src="img/icon-8.png" alt="">
@@ -622,144 +683,175 @@
     <!-- Token Sale Start -->
 
     <div class="pricing-plans-area pt-100 pb-70">
-        <div class="container">
-          <div class="section-title">
-            <span class="top-title">OUR INVESTMENT PACKAGES</span>
-            <h2>We offer a selection of customizable investment solutions</h2>
+      <div class="container">
+        <div class="section-title">
+          <span class="top-title">OUR INVESTMENT PACKAGES</span>
+          <h2>We offer a selection of customizable investment solutions</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="single-pricing-plan-card">
+              <h4>BITCOIN ARBITRAGE PACKAGE (B.A.P)</h4>
+              <div class="pricing-box">
+                <h4>1.5%</h4>
+                <p>Every working day</p>
+              </div>
+              <ul class="pricing-list">
+                <li>Min. Capital : 100 000</li>
+                <li>Max. Capital : 5 000 000</li>
+                <li>2 weeks</li>
+              </ul>
+              <h3>ADVANTAGE:</h3>
+              <ul class="benefit" style="list-style: none">
+                <li>15% total interest after two weeks</li>
+                <li>Dedicated customer Service 24 hours a day</li>
+              </ul>
+              <a href="./assets1/pages/product.html" class="default-btn btn"
+                >JOIN NOW</a
+              >
+            </div>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6">
-              <div class="single-pricing-plan-card">
-                <h4>BITCOIN ARBITRAGE PACKAGE (B.A.P)</h4>
-                <div class="pricing-box">
-                  <h4>1.5%                </h4>
-                  <p>Every working day                </p>
-                </div>
-                <ul class="pricing-list">
-                  <li>Min. Capital : 100 000 FCFA</li>
-                  <li>Max. Capital : 5 000 000 FCFA</li>
-                  <li>2 weeks
-                </li>
-                </ul>
-                <h3>ADVANTAGE:</h3>
-                <ul class="benefit" style="list-style: none;">
-                  <li>15% total interest after two weeks                </li>
-                  <li>Dedicated customer Service 24 hours a day</li>
-                </ul>
-                <a href="./assets1/pages/product.html" class="default-btn btn">Invest</a>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-pricing-plan-card">
+              <h3>BITCOIN ARBITRAGE PLUS PACKAGE</h3>
+              <div class="pricing-box">
+                <h4>2%</h4>
+                <p>Every working day</p>
               </div>
-            </div>
-            <div class="col-lg-4 col-md-6"> 
-              <div class="single-pricing-plan-card">
-                <h3>BITCOIN ARBITRAGE PLUS PACKAGE
-                </h3>
-                <div class="pricing-box">
-                  <h4>2%</h4>
-                  <p>Every working day</p>
-                </div>
+              <ul class="pricing-list">
                 <ul class="pricing-list">
-                  <ul class="pricing-list">
-                  <li>Min. Capital : 5 000 000 FCFA</li>
-                  <li>Max: No level limit
-                </li>
+                  <li>Min. Capital : 5 000 000</li>
+                  <li>Max: No level limit</li>
                 </ul>
-                </ul>
-                <h3>AVANTAGE:</h3>
-                <ul class="benefit" style="list-style: none;">
-                  <li>20% total interest after two weeks
-                </li>
-                  <li>Dedicated customer service 24 hours a day
-                </li>
-                  <li>Access to financing for SMEs
-                </li>
-                  <li>Access to Bitcoin Halving  System
-                </li>
-                  <li>Access to the Training </li>
-                  <li>Academy and free training kits.
-                </li>
-                  <li>Priority access to exclusive packages and launch.
-                </li>
-                </ul>
-                <a href="./assets1/pages/product.html" class="default-btn btn">Invest</a>
-              </div>
+              </ul>
+              <h3>ADVANTAGE:</h3>
+              <ul class="benefit" style="list-style: none">
+                <li>20% total interest after two weeks</li>
+                <li>Dedicated customer service 24 hours a day</li>
+                <li>Access to financing for SMEs</li>
+                <li>Access to Bitcoin Halving System</li>
+                <li>Access to the Training</li>
+                <li>Academy and free training kits.</li>
+                <li>Priority access to exclusive packages and launch.</li>
+              </ul>
+              <a href="./assets1/pages/product.html" class="default-btn btn"
+                >JOIN NOW</a
+              >
             </div>
-           
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- testimonials -->
-      <div class="testimonials-area pt-100 pb-100">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="single-testimonials-img">
-                <div class="testimonials-main">
-                  <img src="img/testimonials-img-1.webp" alt="testimonials1">
-                </div>
-                <div class="testimonials-bg-shape12">
-                  <img src="img/testimonials-img-bg-shape1.webp" alt="testimonials">
-                </div>
-                <div class="testimonials-img2">
-                  <img src="img/testimonials-img-2.webp" alt="testimonials2">
-                </div>
-                <div class="testimonials-img3">
-                  <img src="img/testimonials-img-3.webp" alt="testimonials2">
-                </div>
+    <!-- testimonials -->
+    <div class="testimonials-area pt-100 pb-100">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="single-testimonials-img">
+              <div class="testimonials-main">
+                <img src="img/testimonials-img-1.webp" alt="testimonials1" />
+              </div>
+              <div class="testimonials-bg-shape12">
+                <img
+                  src="img/testimonials-img-bg-shape1.webp"
+                  alt="testimonials"
+                />
+              </div>
+              <div class="testimonials-img2">
+                <img src="img/testimonials-img-2.webp" alt="testimonials2" />
+              </div>
+              <div class="testimonials-img3">
+                <img src="img/testimonials-img-3.webp" alt="testimonials2" />
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="single-testimonials-content">
-                <div class="section-title left-title">
-                  <span class="top-title">Testimonials</span>
-                  <h2>What our customers say</h2>
-                  <p>At Gold Crest, the quality of our service and our goodwill speak for us. A few words from our customers nationwide.</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="single-testimonials-content">
+              <div class="section-title left-title">
+                <span class="top-title">Testimonials</span>
+                <h2>What our customers say</h2>
+                <p>
+                  At Gold Crest, the quality of our service and our goodwill
+                  speak for us. A few words from our customers nationwide.
+                </p>
+              </div>
+              <div class="testimonials-slider owl-carousel owl-theme">
+                <div class="testimonials-item">
+                  <div class="testimonials-client d-flex align-items-center">
+                    <img src="img/farnk.jpg" alt="testimonials" />
+                    <div class="testimonials-text">
+                      <h3>Frank Senbeans</h3>
+                      <p>Investisseur</p>
+                    </div>
+                  </div>
+                  <div class="testimonials-card">
+                    <div class="quote-icon">
+                      <img
+                        src="assets1/images/testimonials/quote.svg"
+                        alt="quote"
+                      />
+                    </div>
+                    <p>
+                      C'est juste le meilleur endroit pour investir votre
+                      argent. Quand il s'agit de tranquillité d'esprit, vous me
+                      donnez tout. Pas une seule promesse n'a échoué. S'il vous
+                      plaît, continuez.
+                    </p>
+                  </div>
                 </div>
-                <div class="testimonials-slider owl-carousel owl-theme">
-                  <div class="testimonials-item">
-                    <div class="testimonials-client d-flex align-items-center">
-                      <img src="img/farnk.jpg" alt="testimonials">
-                      <div class="testimonials-text">
-                        <h3>Frank Senbeans</h3>
-                        <p>Investisseur</p>
-                      </div>
-                    </div>
-                    <div class="testimonials-card">
-                      <div class="quote-icon">
-                        <img src="assets1/images/testimonials/quote.svg" alt="quote">
-                      </div>
-                      <p>C'est juste le meilleur endroit pour investir votre argent. Quand il s'agit de tranquillité d'esprit, vous me donnez tout. Pas une seule promesse n'a échoué. S'il vous plaît, continuez.</p>
+                <div class="testimonials-item">
+                  <div class="testimonials-client d-flex align-items-center">
+                    <img
+                      src="assets1/images/testimonials/ash.jpg"
+                      alt="testimonials"
+                    />
+                    <div class="testimonials-text">
+                      <h3>Marguerite des cendres</h3>
+                      <p>Propriétaire d'entreprise</p>
                     </div>
                   </div>
-                  <div class="testimonials-item">
-                    <div class="testimonials-client d-flex align-items-center">
-                      <img src="assets1/images/testimonials/ash.jpg" alt="testimonials">
-                      <div class="testimonials-text">
-                        <h3>Marguerite des cendres</h3>
-                        <p>Propriétaire d'entreprise</p>
-                      </div>
+                  <div class="testimonials-card">
+                    <div class="quote-icon">
+                      <img
+                        src="assets1/images/testimonials/quote.svg"
+                        alt="quote"
+                      />
                     </div>
-                    <div class="testimonials-card">
-                      <div class="quote-icon">
-                        <img src="assets1/images/testimonials/quote.svg" alt="quote">
-                      </div>
-                      <p>Juste un rapide mais énorme merci pour tout ce que vous avez fait pour nous aider à réaliser ce rêve. C'est tellement beau - et je suis encore sous le choc de la réalité - de déménager mon entreprise dans le pays de mes rêves.</p>
+                    <p>
+                      Juste un rapide mais énorme merci pour tout ce que vous
+                      avez fait pour nous aider à réaliser ce rêve. C'est
+                      tellement beau - et je suis encore sous le choc de la
+                      réalité - de déménager mon entreprise dans le pays de mes
+                      rêves.
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonials-item">
+                  <div class="testimonials-client d-flex align-items-center">
+                    <img
+                      src="assets1/images/testimonials/samuel.jpg"
+                      alt="testimonials"
+                    />
+                    <div class="testimonials-text">
+                      <h3>Tolulope Samuel</h3>
+                      <p>Propriétaire d'entreprise</p>
                     </div>
                   </div>
-                  <div class="testimonials-item">
-                    <div class="testimonials-client d-flex align-items-center">
-                      <img src="assets1/images/testimonials/samuel.jpg" alt="testimonials">
-                      <div class="testimonials-text">
-                        <h3>Tolulope Samuel</h3>
-                        <p>Propriétaire d'entreprise</p>
-                      </div>
+                  <div class="testimonials-card">
+                    <div class="quote-icon">
+                      <img
+                        src="assets1/images/testimonials/quote.svg"
+                        alt="quote"
+                      />
                     </div>
-                    <div class="testimonials-card">
-                      <div class="quote-icon">
-                        <img src="assets1/images/testimonials/quote.svg" alt="quote">
-                      </div>
-                      <p>Je suis un témoignage vivant de votre service de qualité. J'apprécie tous vos efforts pour aider les propriétaires d'entreprise. Le processus de prêt était simple et plus rapide que les banques locales. Le peu d'investissement avec toi me rapporte assez même que mes affaires</p>
-                    </div>
+                    <p>
+                      Je suis un témoignage vivant de votre service de qualité.
+                      J'apprécie tous vos efforts pour aider les propriétaires
+                      d'entreprise. Le processus de prêt était simple et plus
+                      rapide que les banques locales. Le peu d'investissement
+                      avec toi me rapporte assez même que mes affaires
+                    </p>
                   </div>
                 </div>
               </div>
@@ -767,6 +859,7 @@
           </div>
         </div>
       </div>
+    </div>
 
     <!-- FAQs Start -->
     <div class="container-xxl py-5">
@@ -1003,7 +1096,14 @@
               />
             </a>
             <span
-              >With the financial landscape rapidly evolving, crypto is leading the way in revolutionizing the way we think about money. As more and more people turn to crypto as a way to invest and transact, it's clear that this technology is here to stay. Gold Crest Opportunity is a premium crypto platform that empowers users to harness the potential of crypto and make their money work harder. If you're looking for a way to get involved in the crypto revolution, this is the platform for you.</span
+              >With the financial landscape rapidly evolving, crypto is leading
+              the way in revolutionizing the way we think about money. As more
+              and more people turn to crypto as a way to invest and transact,
+              it's clear that this technology is here to stay. Gold Crest
+              Opportunity is a premium crypto platform that empowers users to
+              harness the potential of crypto and make their money work harder.
+              If you're looking for a way to get involved in the crypto
+              revolution, this is the platform for you.</span
             >
           </div>
           <div class="col-lg-3 col-md-6">
@@ -1026,7 +1126,7 @@
               <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
             </p>
             <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-            <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+            <p><i class="fa fa-envelope me-3"></i><a class="text-gold" href="mailto:info@cristadeouro.com">info@cristadeouro.com</a></p>
           </div>
 
           <!-- <div class="col-lg-3 col-md-6">
