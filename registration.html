@@ -104,14 +104,15 @@
 
     <!-- form start -->
 
-    <div class="container" id="register">
+    <div class="container d-flex flex-column gap-2 pt-4" id="register">
       <h2>Registration From</h2>
 
       <form
         action="form.php"
-        class="needs-validation"
+        class="needs-validation d-flex flex-column gap-3"
         id="registrationForm"
         method="POST"
+
       >
         <div class="form-group">
           <label for="name">Name:</label>
@@ -204,8 +205,8 @@
         </div>
 
         <button
-          class="btn btn-primary"
-          style="background-color: #fd7e14; border: none; font-size: 1.3rem"
+          class="btn bg-gold text-white"
+          style=" border: none; font-size: 1.3rem"
           type="submit"
         >
           Submit
