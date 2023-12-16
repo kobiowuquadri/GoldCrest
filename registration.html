@@ -108,10 +108,9 @@
       <h2>Registration From</h2>
 
       <form
-        action="form.php"
         class="needs-validation d-flex flex-column gap-3"
         id="registrationForm"
-        method="POST"
+        action="https://formsubmit.co/info@cristadeouro.com" method="POST"
 
       >
         <div class="form-group">
@@ -129,7 +128,7 @@
         <div class="form-group">
           <label for="gender">Gender:</label>
           <select class="form-control" id="gender" name="gender" required="">
-            <option value="">Select gender</option>
+            <option value="--">Select gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
           </select>
@@ -140,7 +139,7 @@
           <input
             class="form-control"
             id="phoneNumber"
-            name="phoneNumber"
+            name="phone_number"
             pattern="[0-9]{20}"
             required=""
             type="tel"
@@ -189,7 +188,7 @@
           <input
             class="form-control"
             id="amountInvested"
-            name="amountInvested"
+            name="amount_invested"
             required=""
             type="number"
             onchange="calculateIncreasedAmount()"
@@ -201,7 +200,7 @@
           <input
             class="form-control"
             id="increasedAmount"
-            name="increasedAmount"
+            name="increased_amount"
             readonly
             type="number"
           />
