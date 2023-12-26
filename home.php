@@ -96,6 +96,8 @@ if (!isset($_SESSION["user"])) {
           <a href="service.php" class="nav-item nav-link">Services</a>
           <a href="product.php" class="nav-item nav-link">Products</a>
           <a href="contact.php" class="nav-item nav-link">Contact</a>
+          <a href="logout.php" class="nav-item nav-link">Logout</a>
+          
         </div>
         <!-- <div class="h-100 d-lg-inline-flex align-items-center d-none">
           <a class="btn btn-square rounded-circle bg-light me-2" href=""
