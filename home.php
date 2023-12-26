@@ -734,7 +734,7 @@ if (!isset($_SESSION["user"])) {
                 <li style="text-transform:lowercase;">ACCESS TO GOLD CREST TRADING ACADEMY TnC apply</li>
                 <li style="text-transform:lowercase;">EXCLUSIVE ACCESS TO PRODUCT LAUNCH TnC apply</li>
               </ul>
-              <a href="./registration.html" class="default-btn btn">JOIN NOW</a>
+              <a href="register.php" class="default-btn btn">JOIN NOW</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">

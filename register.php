@@ -91,8 +91,8 @@ if (!isset($_SESSION["user"])) {
         <div class="navbar-nav ms-auto py-4 py-lg-0">
           <a href="home.php" class="nav-item nav-link active">Home</a>
           <a href="service.php" class="nav-item nav-link">Services</a>
-          <a href="./product.php" class="nav-item nav-link">Products</a>
-          <a href="contact.html" class="nav-item nav-link">Contact</a>
+          <a href="product.php" class="nav-item nav-link">Products</a>
+          <a href="contact.php" class="nav-item nav-link">Contact</a>
         </div>
         <!-- <div class="h-100 d-lg-inline-flex align-items-center d-none">
          <a class="btn btn-square rounded-circle bg-light me-2" href=""
@@ -292,7 +292,7 @@ if (!isset($_SESSION["user"])) {
       <div class="container py-5">
         <div class="row g-5">
           <div class="col-md-6">
-            <a href="index.html" class="d-flex align-items-center">
+            <a href="home.php" class="d-flex align-items-center">
               <img
                 class="img-fluid me-2"
                 src="img/logo_2.png"
@@ -313,18 +313,18 @@ if (!isset($_SESSION["user"])) {
           </div>
           <div class="col-lg-3 col-md-6">
             <h5 class="mb-4">Our Services</h5>
-            <a class="btn btn-link" href="./service.html"
+            <a class="btn btn-link" href="service.php"
               >Crptocurrency Exchange
             </a>
-            <a class="btn btn-link" href="./service.html">Bitcoin Escrow </a>
-            <a class="btn btn-link" href="./service.html">Bitcoin investment</a>
+            <a class="btn btn-link" href="service.php">Bitcoin Escrow </a>
+            <a class="btn btn-link" href="service.php">Bitcoin investment</a>
           </div>
           <div class="col-lg-3 col-md-6">
             <h5 class="mb-4">Quick Links</h5>
-            <a class="btn btn-link" href="./index.html">Home</a>
-            <a class="btn btn-link" href="./service.html">Services</a>
-            <a class="btn btn-link" href="./product.html">Products</a>
-            <a class="btn btn-link" href="./contact.html">Contact Us</a>
+            <a class="btn btn-link" href="home.php">Home</a>
+            <a class="btn btn-link" href="service.php">Services</a>
+            <a class="btn btn-link" href="product.php">Products</a>
+            <a class="btn btn-link" href="contact.php">Contact Us</a>
           </div>
           <div class="col-lg-3 col-md-6">
             <h5 class="mb-4">Get In Touch</h5>
