@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION["user"])) {
+    header("Location: index.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -64,7 +71,7 @@
     <nav
       class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5"
     >
-      <a href="index.html" class="navbar-brand d-flex align-items-center">
+      <a href="home.php" class="navbar-brand d-flex align-items-center">
         <img
           class="img-fluid me-2"
           src="img/logo_2.png"
@@ -82,9 +89,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-4 py-lg-0">
-          <a href="index.html" class="nav-item nav-link active">Home</a>
-          <a href="service.html" class="nav-item nav-link">Services</a>
-          <a href="./product.html" class="nav-item nav-link">Products</a>
+          <a href="home.php" class="nav-item nav-link active">Home</a>
+          <a href="service.php" class="nav-item nav-link">Services</a>
+          <a href="./product.php" class="nav-item nav-link">Products</a>
           <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
         <!-- <div class="h-100 d-lg-inline-flex align-items-center d-none">

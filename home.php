@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (!isset($_SESSION["user"])) {
+    header("Location: index.php");
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -65,7 +74,7 @@
     <nav
       class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5"
     >
-      <a href="index.html" class="navbar-brand d-flex align-items-center">
+      <a href="home.php" class="navbar-brand d-flex align-items-center">
         <img
           class="img-fluid me-2"
           src="img/logo_2.png"
@@ -83,10 +92,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-4 py-lg-0">
-          <a href="index.html" class="nav-item nav-link active">Home</a>
-          <a href="service.html" class="nav-item nav-link">Services</a>
-          <a href="./product.html" class="nav-item nav-link">Products</a>
-          <a href="contact.html" class="nav-item nav-link">Contact</a>
+          <a href="home.php" class="nav-item nav-link active">Home</a>
+          <a href="service.php" class="nav-item nav-link">Services</a>
+          <a href="product.php" class="nav-item nav-link">Products</a>
+          <a href="contact.php" class="nav-item nav-link">Contact</a>
         </div>
         <!-- <div class="h-100 d-lg-inline-flex align-items-center d-none">
           <a class="btn btn-square rounded-circle bg-light me-2" href=""
@@ -121,7 +130,7 @@
               possibilities of crypto today!
             </p>
             <a
-              href="./registration.html"
+              href="register.php"
               class="btn bg-gold text-white py-3 px-4 animated slideInDown"
               >Register</a
             >
@@ -368,7 +377,7 @@
               </div>
               <a
                 class="btn bg-gold text-white py-3 px-4"
-                href="./registration.html"
+                href="register.php"
                 >Join Us</a
               >
             </div>
@@ -557,7 +566,7 @@
               <p>
                 Our company is a leading provider of Bitcoin spot trading services, offering a safe and reliable platform for buyers and sellers. We are committed to providing a smooth and secure trading experience, protecting all parties involved in the transaction. Whether you're looking to make a large or complex purchase, our spot trading services are designed to meet your needs.
               </p>
-              <a href="./service.html"
+              <a href="service.php"
                 >Read More <i class="fa fa-arrow-right ms-2"></i
               ></a>
             </div>
@@ -573,7 +582,7 @@
                 investment. It's time to take your financial future
                 into your own hands!
               </p>
-              <a href="./service.html"
+              <a href="service.php"
                 >Read More <i class="fa fa-arrow-right ms-2"></i
               ></a>
             </div>
@@ -591,7 +600,7 @@
                 miss out on the opportunities that await you in the
                 world of crypto!
               </p>
-              <a href="./service.html"
+              <a href="service.php"
                 >Read More <i class="fa fa-arrow-right ms-2"></i
               ></a>
             </div>
@@ -751,7 +760,7 @@
                 <li>Academy and free training kits.</li>
                 <li>Priority access to exclusive packages and launch.</li>
               </ul>
-              <a href="./registration.html" class="default-btn btn">JOIN NOW</a>
+              <a href="register.php" class="default-btn btn">JOIN NOW</a>
             </div>
           </div>
         </div>
@@ -1086,18 +1095,18 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <h5 class="mb-4">Our Services</h5>
-            <a class="btn btn-link" href="./service.html"
+            <a class="btn btn-link" href="service.php"
               >Crptocurrency Exchange
             </a>
-            <a class="btn btn-link" href="./service.html">Bitcion Spot Trading Service</a>
-            <a class="btn btn-link" href="./service.html">Bitcoin investment</a>
+            <a class="btn btn-link" href="service.php">Bitcion Spot Trading Service</a>
+            <a class="btn btn-link" href="service.php">Bitcoin investment</a>
           </div>
           <div class="col-lg-3 col-md-6">
             <h5 class="mb-4">Quick Links</h5>
             <a class="btn btn-link" href="#">Home</a>
-            <a class="btn btn-link" href="./service.html">Services</a>
-            <a class="btn btn-link" href="./product.html">Products</a>
-            <a class="btn btn-link" href="./contact.html">Contact Us</a>
+            <a class="btn btn-link" href="service.php">Services</a>
+            <a class="btn btn-link" href="product.php">Products</a>
+            <a class="btn btn-link" href="contact.php">Contact Us</a>
           </div>
           <div class="col-lg-3 col-md-6">
             <h5 class="mb-4">Get In Touch</h5>
