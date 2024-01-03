@@ -2,6 +2,27 @@
 session_start();
 if (isset($_SESSION["user"])) {
   header("Location: home.php");
+  exit(); // Ensure to stop script execution after redirect
+}
+
+if (isset($_POST["login"])) {
+  $email = $_POST["email"];
+  $password = $_POST["password"];
+  require_once "database.php";
+  $sql = "SELECT * FROM users WHERE email = '$email'";
+  $result = mysqli_query($conn, $sql);
+  $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
+  if ($user) {
+    if (password_verify($password, $user["password"])) {
+      $_SESSION["user"] = "yes";
+      header("Location: home.php");
+      exit(); // Ensure to stop script execution after redirect
+    } else {
+      echo "<div class='alert alert-danger'>Password does not match</div>";
+    }
+  } else {
+    echo "<div class='alert alert-danger'>Email does not match</div>";
+  }
 }
 ?>
 
@@ -124,28 +145,6 @@ if (isset($_SESSION["user"])) {
       <img src="./img/testimonials.jpeg" class="img-fluid" alt="">
     </div>
     <div class="container container_form shadow col-md">
-      <?php
-      if (isset($_POST["login"])) {
-        $email = $_POST["email"];
-        $password = $_POST["password"];
-        require_once "database.php";
-        $sql = "SELECT * FROM users WHERE email = '$email'";
-        $result = mysqli_query($conn, $sql);
-        $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
-        if ($user) {
-          if (password_verify($password, $user["password"])) {
-            session_start();
-            $_SESSION["user"] = "yes";
-            header("Location: home.php");
-            die();
-          } else {
-            echo "<div class='alert alert-danger'>Password does not match</div>";
-          }
-        } else {
-          echo "<div class='alert alert-danger'>Email does not match</div>";
-        }
-      }
-      ?>
       <h4>LogIn</h4>
       <form action="index.php" method="post">
         <div class="form-group">
