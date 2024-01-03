@@ -34,6 +34,9 @@ if (isset($_POST["login"])) {
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gold Crest | Login Form</title>
+    <!-- Favicon -->
+    <link href="img/logo_1.jpg" rel="icon" />
+    
   <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
@@ -148,7 +151,7 @@ if (isset($_POST["login"])) {
       <img src="./img/testimonials.jpeg" class="img-fluid" alt="">
     </div>
     <div class="container container_form shadow col-md">
-      <h4>LogIn</h4>
+      <h4 style="padding-bottom: 20px;">LogIn</h4>
       <form action="index.php" method="post">
         <div class="form-group">
           <input type="email" placeholder="Enter Email:" name="email" class="form-control">

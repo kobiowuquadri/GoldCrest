@@ -1,8 +1,51 @@
 <?php
-session_start();
-if (isset($_SESSION["user"])) {
-    header("Location: home.php");
-}
+    if (isset($_POST["submit"])) {
+        $email = $_POST["email"];
+        $password = $_POST["password"];
+        $passwordRepeat = $_POST["repeat_password"];
+        $phoneNumber = $_POST["phoneNumber"];
+
+        $passwordHash = password_hash($password, PASSWORD_DEFAULT);
+
+        $errors = array();
+
+        if (empty($phoneNumber) or empty($email) or empty($password) or empty($passwordRepeat)) {
+            array_push($errors, "All fields are required");
+        }
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            array_push($errors, "Email is not valid");
+        }
+        if (strlen($password) < 8) {
+            array_push($errors, "Password must be at least 8 charactes long");
+        }
+        if ($password !== $passwordRepeat) {
+            array_push($errors, "Password does not match");
+        }
+        require_once "database.php";
+        $sql = "SELECT * FROM users WHERE email = '$email'";
+        $result = mysqli_query($conn, $sql);
+        $rowCount = mysqli_num_rows($result);
+        if ($rowCount > 0) {
+            array_push($errors, "Email already exists!");
+        }
+        if (count($errors) > 0) {
+            foreach ($errors as  $error) {
+                echo "<div class='alert alert-danger'>$error</div>";
+            }
+        } else {
+
+            $sql = "INSERT INTO users (email, password, phoneNumber) VALUES ( ?, ?, ? )";
+            $stmt = mysqli_stmt_init($conn);
+            $prepareStmt = mysqli_stmt_prepare($stmt, $sql);
+            if ($prepareStmt) {
+                mysqli_stmt_bind_param($stmt, "sss", $email, $passwordHash, $phoneNumber);
+                mysqli_stmt_execute($stmt);
+                echo "<div class='alert alert-success'>You are registered successfully.<a href='index.php'>Click here to Login</a></div>";
+            } else {
+                die("Something went wrong");
+            }
+        }
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +55,9 @@ if (isset($_SESSION["user"])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gold Crest | Registration Form</title>
+    <!-- Favicon -->
+    <link href="img/logo_1.jpg" rel="icon" />
+
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
@@ -109,55 +155,6 @@ if (isset($_SESSION["user"])) {
         </div>
 
         <div class="container container_form shadow col-md">
-            <?php
-            if (isset($_POST["submit"])) {
-                $email = $_POST["email"];
-                $password = $_POST["password"];
-                $passwordRepeat = $_POST["repeat_password"];
-                $phoneNumber = $_POST["phoneNumber"];
-
-                $passwordHash = password_hash($password, PASSWORD_DEFAULT);
-
-                $errors = array();
-
-                if (empty($phoneNumber) or empty($email) or empty($password) or empty($passwordRepeat)) {
-                    array_push($errors, "All fields are required");
-                }
-                if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                    array_push($errors, "Email is not valid");
-                }
-                if (strlen($password) < 8) {
-                    array_push($errors, "Password must be at least 8 charactes long");
-                }
-                if ($password !== $passwordRepeat) {
-                    array_push($errors, "Password does not match");
-                }
-                require_once "database.php";
-                $sql = "SELECT * FROM users WHERE email = '$email'";
-                $result = mysqli_query($conn, $sql);
-                $rowCount = mysqli_num_rows($result);
-                if ($rowCount > 0) {
-                    array_push($errors, "Email already exists!");
-                }
-                if (count($errors) > 0) {
-                    foreach ($errors as  $error) {
-                        echo "<div class='alert alert-danger'>$error</div>";
-                    }
-                } else {
-
-                    $sql = "INSERT INTO users (email, password, phoneNumber) VALUES ( ?, ?, ? )";
-                    $stmt = mysqli_stmt_init($conn);
-                    $prepareStmt = mysqli_stmt_prepare($stmt, $sql);
-                    if ($prepareStmt) {
-                        mysqli_stmt_bind_param($stmt, "ssi", $email, $passwordHash, $phoneNumber);
-                        mysqli_stmt_execute($stmt);
-                        echo "<div class='alert alert-success'>You are registered successfully.</div>";
-                    } else {
-                        die("Something went wrong");
-                    }
-                }
-            }
-            ?>
             <form action="registration.php" method="post">
                 <div class="form-group">
                     <input type="email" class="form-control" name="email" placeholder="Email:">

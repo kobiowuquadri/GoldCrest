@@ -708,65 +708,7 @@ if (!isset($_SESSION["user"])) {
     </div> -->
     <!-- Token Sale Start -->
 
-    <div class="pricing-plans-area pt-100 pb-70">
-      <div class="container">
-        <div class="section-title">
-          <span class="top-title">OUR INVESTMENT PACKAGES</span>
-          <h2>We offer a selection of customizable investment solutions</h2>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-6">
-            <div class="single-pricing-plan-card">
-              <h3>Gold Crest Bitcoin Spot Trading Package ( Gold BST Package)               </h3>
-              <div class="pricing-box">
-                <h4>1.5%</h4>
-                <p>Every working day</p>
-              </div>
-              <ul class="pricing-list">
-                <li>Min Capital: 11,000 MZN                </li>
-                <li>Max Capital: Unlimited                </li>
-                <li>Duration: 2 weeks Maturity </li>
-              </ul>
-              <h3>ADVANTAGE:</h3>
-              <ul class="benefit" >
-                <li style="text-transform:lowercase;">15% INTEREST AFTER TWO WEEKS</li>
-                <li style="text-transform:lowercase;">DEDICATED CUSTOMER SERVICE</li>
-                <li style="text-transform:lowercase;">ACCESS TO GOLD CREST TRADING ACADEMY TnC apply</li>
-                <li style="text-transform:lowercase;">EXCLUSIVE ACCESS TO PRODUCT LAUNCH TnC apply</li>
-              </ul>
-              <a href="register.php" class="default-btn btn">JOIN NOW</a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="single-pricing-plan-card">
-              <h3>BITCOIN ARBITRAGE PLUS PACKAGE</h3>
-              <div class="pricing-box">
-                <h4>2%</h4>
-                <p>Every working day</p>
-              </div>
-              <ul class="pricing-list">
-                <ul class="pricing-list">
-                  <li>Min. Capital : 5 000 000</li>
-                  <li>Max: No level limit</li>
-                </ul>
-              </ul>
-              <h3>ADVANTAGE:</h3>
-              <ul class="benefit">
-                <li>20% total interest after two weeks</li>
-                <li>Dedicated customer service 24 hours a day</li>
-                <li>Access to financing for SMEs</li>
-                <li>Access to Bitcoin Halving System</li>
-                <li>Access to the Training</li>
-                <li>Academy and free training kits.</li>
-                <li>Priority access to exclusive packages and launch.</li>
-              </ul>
-              <a href="register.php" class="default-btn btn">JOIN NOW</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    
     <!-- testimonials -->
     <div class="testimonials-area pt-100 pb-100">
       <div
