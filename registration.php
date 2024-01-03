@@ -155,6 +155,7 @@
         </div>
 
         <div class="container container_form shadow col-md">
+        <h4 style="padding-bottom: 20px;">Register</h4>
             <form action="registration.php" method="post">
                 <div class="form-group">
                     <input type="email" class="form-control" name="email" placeholder="Email:">
