@@ -218,8 +218,7 @@ if (!isset($_SESSION["user"])) {
           <label for="package">Package:</label>
           <select class="form-control" id="package" name="package" required>
             <option value="">Select the package</option>
-            <option value="arbitagePackage">BITCOIN ARBITRAGE PACKAGE (B.A.P)</option>
-            <option value="arbitagePackagePlus">BITCOIN ARBITRAGE PLUS PACKAGE</option>
+            <option value="arbitagePackage">GOLDCREST FLEXI PLAN(GFP)</option>
           </select>
         </div>
 

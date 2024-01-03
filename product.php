@@ -156,10 +156,6 @@ if (!isset($_SESSION["user"])) {
               <ul class="benefit">
                 <li>15% total interest after two weeks</li>
                 <li>Dedicated customer service 24 hours a day</li>
-                <li>Access to financing for SMEs</li>
-                <li>Access to Bitcoin Halving System</li>
-                <li>Access to the Training</li>
-                <li>Academy and free training kits.</li>
                 <li>Priority access to exclusive packages and launch.</li>
               </ul>
               <a href="register.php" class="default-btn btn">JOIN NOW</a>
