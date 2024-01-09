@@ -33,7 +33,7 @@ if (isset($_POST["login"])) {
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gold Crest | Login Form</title>
+  <title>Gold Crest | forma de login</title>
     <!-- Favicon -->
     <link href="img/logo_1.jpg" rel="icon" />
     
@@ -116,13 +116,13 @@ if (isset($_POST["login"])) {
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav ms-auto py-4 py-lg-0">
-        <a href="home.php" class="nav-item nav-link active">Home</a>
-        <a href="service.php" class="nav-item nav-link">Services</a>
-        <a href="product.php" class="nav-item nav-link">Products</a>
-        <a href="contact.php" class="nav-item nav-link">Contact</a>
+        <a href="home.php" class="nav-item nav-link active">Lar</a>
+        <a href="service.php" class="nav-item nav-link">Serviços</a>
+        <a href="product.php" class="nav-item nav-link">Produtos</a>
+        <a href="contact.php" class="nav-item nav-link">Contato</a>
         <?php
         if (isset($_SESSION["user"])) {
-          echo '<a href="logout.php" class="nav-item nav-link">Logout</a>';
+          echo '<a href="logout.php" class="nav-item nav-link">Sair</a>';
         }
         ?>
       </div>
@@ -151,20 +151,20 @@ if (isset($_POST["login"])) {
       <img src="./img/testimonials.jpeg" class="img-fluid" alt="">
     </div>
     <div class="container container_form shadow col-md">
-      <h4 style="padding-bottom: 20px;">LogIn</h4>
+      <h4 style="padding-bottom: 20px;">Conecte-se</h4>
       <form action="index.php" method="post">
         <div class="form-group">
-          <input type="email" placeholder="Enter Email:" name="email" class="form-control">
+          <input type="email" placeholder="Digite o e-mail:" name="email" class="form-control">
         </div>
         <div class="form-group">
-          <input type="password" placeholder="Enter Password:" name="password" class="form-control">
+          <input type="password" placeholder="Digit a senha:" name="password" class="form-control">
         </div>
         <div class="form-btn">
-          <input type="submit" value="Login" name="login" class="btn bg-gold text-white">
+          <input type="submit" value="Conecte-se" name="login" class="btn bg-gold text-white">
         </div>
       </form>
       <div>
-        <p>Not registered yet <a href="registration.php" class="text-gold">Register Here</a></p>
+        <p>Ainda não cadastrado <a href="registration.php" class="text-gold">Cadastre-se aqui</a></p>
       </div>
     </div>
   </div>

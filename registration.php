@@ -54,7 +54,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gold Crest | Registration Form</title>
+    <title>Gold Crest | Formulário de registro</title>
     <!-- Favicon -->
     <link href="img/logo_1.jpg" rel="icon" />
 
@@ -124,13 +124,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-4 py-lg-0">
-                <a href="home.php" class="nav-item nav-link active">Home</a>
-                <a href="service.php" class="nav-item nav-link">Services</a>
-                <a href="product.php" class="nav-item nav-link">Products</a>
-                <a href="contact.php" class="nav-item nav-link">Contact</a>
+                <a href="home.php" class="nav-item nav-link active">Lar</a>
+                <a href="service.php" class="nav-item nav-link">Serviços</a>
+                <a href="product.php" class="nav-item nav-link">Produtos</a>
+                <a href="contact.php" class="nav-item nav-link">Contato</a>
                 <?php
                 if (isset($_SESSION["user"])) {
-                    echo '<a href="logout.php" class="nav-item nav-link">Logout</a>';
+                    echo '<a href="logout.php" class="nav-item nav-link">Sair</a>';
                 }
                 ?>
 
@@ -155,27 +155,27 @@
         </div>
 
         <div class="container container_form shadow col-md">
-        <h4 style="padding-bottom: 20px;">Register</h4>
+        <h4 style="padding-bottom: 20px;">Registro</h4>
             <form action="registration.php" method="post">
                 <div class="form-group">
-                    <input type="email" class="form-control" name="email" placeholder="Email:">
+                    <input type="email" class="form-control" name="email" placeholder="E-mail:">
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" name="password" placeholder="Password:">
+                    <input type="password" class="form-control" name="password" placeholder="Senha:">
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" name="repeat_password" placeholder="Repeat Password:">
+                    <input type="password" class="form-control" name="repeat_password" placeholder="Repita a senha:">
                 </div>
                 <div class="form-group">
-                    <input type="number" class="form-control" name="phoneNumber" placeholder="Phone Number:">
+                    <input type="number" class="form-control" name="phoneNumber" placeholder="Numero de telefone">
                 </div>
                 <div class="form-btn">
-                    <input type="submit" class="btn bg-gold text-white" value="Register" name="submit">
+                    <input type="submit" class="btn bg-gold text-white" value="Registro" name="submit">
                 </div>
             </form>
             <div>
                 <div>
-                    <p>Already Registered <a href="index.php" class="text-gold">Login Here</a></p>
+                    <p>Já cadastrado Faça <a href="index.php" class="text-gold">login aqui</a></p>
                 </div>
             </div>
         </div>
