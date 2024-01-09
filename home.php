@@ -10,7 +10,7 @@ if (!isset($_SESSION["user"])) {
 
 <head>
   <meta charset="utf-8" />
-  <title>Gold Crest | Home</title>
+  <title>Gold Crest | Lar</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="" name="keywords" />
   <meta content="" name="description" />
@@ -67,11 +67,15 @@ if (!isset($_SESSION["user"])) {
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav ms-auto py-4 py-lg-0">
-        <a href="home.php" class="nav-item nav-link active">Home</a>
-        <a href="service.php" class="nav-item nav-link">Services</a>
-        <a href="product.php" class="nav-item nav-link">Products</a>
-        <a href="contact.php" class="nav-item nav-link">Contact</a>
-        <a href="logout.php" class="nav-item nav-link">Logout</a>
+        <a href="home.php" class="nav-item nav-link active">Lar</a>
+        <a href="service.php" class="nav-item nav-link">Serviços</a>
+        <a href="product.php" class="nav-item nav-link">Produtos</a>
+        <a href="contact.php" class="nav-item nav-link">Contato</a>
+        <a href="logout.php" class="nav-item nav-link">Sair</a>
+        
+
+
+
 
       </div>
       <!-- <div class="h-100 d-lg-inline-flex align-items-center d-none">
@@ -95,18 +99,12 @@ if (!isset($_SESSION["user"])) {
       <div class="row g-5 align-items-center">
         <div class="col-lg-6">
           <h1 class="display-6 mb-3 animated slideInDown">
-            TRADING CRYPTO IS THE FUTURE OF FINANCE - EARN 1.5% PER DAY WITH
-            GOLDCREST SPOT TRADE PLATFORM
+          TRADING CRYPTO É O FUTURO DAS FINANÇAS - GANHE 1,5% POR DIA COM A PLATAFORMA GOLDCREST SPOT TRADE
           </h1>
           <p class="animated slideInDown">
-            The future of finance is being shaped by the rise of
-            cryptocurrency. As crypto becomes more popular, investors have new
-            opportunities to make money through spot trading. Gold Crest
-            Opportunity provides a platform for you to take advantage of these
-            opportunities. So don't get left behind - explore the
-            possibilities of crypto today!
+          O futuro das finanças está sendo moldado pela ascensão da criptomoeda. À medida que a criptografia se torna mais popular, os investidores têm novas oportunidades de ganhar dinheiro através da negociação à vista. Gold Crest Opportunity fornece uma plataforma para você aproveitar essas oportunidades. Portanto, não fique para trás – explore as possibilidades da criptografia hoje mesmo!
           </p>
-          <a href="register.php" class="btn bg-gold text-white py-3 px-4 animated slideInDown">Register</a>
+          <a href="register.php" class="btn bg-gold text-white py-3 px-4 animated slideInDown">Registro</a>
         </div>
         <div class="col-lg-6 animated fadeIn">
           <img class="img-fluid animated pulse infinite" style="animation-duration: 3s" src="img/hero_4-modified.png" alt="" />
@@ -119,9 +117,9 @@ if (!isset($_SESSION["user"])) {
   <div class="features-area pt-100 pb-70">
     <div class="container">
       <div class="section-title">
-        <span class="top-title">OUR FEATURES</span>
+        <span class="top-title">NOSSOS RECURSOS</span>
         <h2>
-          We are a premiere crypto spot trading platform, praised for our stellar performance. We give investors the tools they need to thrive in the rapidly evolving world of cryptocurrency.
+        Somos uma plataforma de negociação spot criptografada de primeira linha, elogiada por nosso excelente desempenho. Damos aos investidores as ferramentas de que necessitam para prosperar no mundo em rápida evolução das criptomoedas.
         </h2>
       </div>
       <div class="row">
@@ -130,11 +128,9 @@ if (!isset($_SESSION["user"])) {
             <div class="features-icon">
               <img src="img/features-icon-1.svg" alt="features-1" />
             </div>
-            <h3>TRUST AND RELIABILITY</h3>
+            <h3>CONFIANÇA E CONFIABILIDADE</h3>
             <p>
-              We're committed to the highest standards of transparency,
-              reliability and integrity. You can count on us to conduct our
-              business with the utmost professionalism and discretion.
+            Estamos comprometidos com os mais altos padrões de transparência, confiabilidade e integridade. Você pode contar conosco para conduzir nossos negócios com o máximo profissionalismo e discrição.
             </p>
           </div>
         </div>
@@ -143,10 +139,9 @@ if (!isset($_SESSION["user"])) {
             <div class="features-icon">
               <img src="img/features-icon-2.svg" alt="features-1" />
             </div>
-            <h3>MONEY BACK GUARANTEE</h3>
+            <h3>GARANTIA DE DEVOLUÇÃO DE DINHEIRO</h3>
             <p>
-              We guarantee satisfaction with our services and ensure that all
-              funds are secure and protected.
+            Garantimos a satisfação com os nossos serviços e asseguramos que todos os fundos estão seguros e protegidos.
             </p>
           </div>
         </div>
@@ -155,10 +150,9 @@ if (!isset($_SESSION["user"])) {
             <div class="features-icon">
               <img src="img/features-icon-3.svg" alt="features-1" />
             </div>
-            <h3>PROFESSIONAL TEAMWORK</h3>
+            <h3>TRABALHO EM EQUIPE PROFISSIONAL</h3>
             <p>
-              Our team of skilled financial experts has a wealth of knowledge
-              and expertise in the areas of corporate finance and investing.
+            Nossa equipe de especialistas financeiros qualificados possui uma riqueza de conhecimento e experiência nas áreas de finanças corporativas e investimentos.
             </p>
           </div>
         </div>
@@ -167,11 +161,9 @@ if (!isset($_SESSION["user"])) {
             <div class="features-icon">
               <img src="img/features-icon-4.svg" alt="features-1" />
             </div>
-            <h3>AI DRIVEN TRADING</h3>
+            <h3>NEGOCIAÇÃO ORIENTADA POR IA</h3>
             <p>
-              Our Expert AI-driven trading uses sophisticated algorithms to
-              analyze vast amounts of data and make informed decisions about
-              when and where to invest to generate profit.
+            Nossa negociação especializada orientada por IA usa algoritmos sofisticados para analisar grandes quantidades de dados e tomar decisões informadas sobre quando e onde investir para gerar lucro.
             </p>
           </div>
         </div>
@@ -188,7 +180,7 @@ if (!isset($_SESSION["user"])) {
               <span class="odometer text-gold" data-count="13">12</span>
               <span class="target text-gold">+</span>
             </h2>
-            <p>Endorsed by notabe organizations including</p>
+            <p>Endossado por organizações notabe, incluindo</p>
           </div>
         </div>
         <div class="container">
@@ -293,50 +285,40 @@ if (!isset($_SESSION["user"])) {
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="h-100">
-            <h1 class="display-6">About Us</h1>
+            <h1 class="display-6">Sobre nós</h1>
             <p class="text-gold fs-5 mb-4">
-              The most trusted cryptocurrency platform in the market.
+            A plataforma de criptomoeda mais confiável do mercado.
             </p>
             <p>
-              As a preeminent cryptocurrency trading platform, we pride ourselves on our sophisticated security protocols and rigorous compliance standards.
-
-
-
+            Como uma plataforma de negociação de criptomoedas proeminente, orgulhamo-nos dos nossos sofisticados protocolos de segurança e rigorosos padrões de conformidade.
 
 
             </p>
             <p class="mb-4">
-              Our state-of-the-art infrastructure, powered by advanced encryption and multi-factor authentication, is designed to ensure the security of our users' assets.
-
+            Nossa infraestrutura de última geração, alimentada por criptografia avançada e autenticação multifatorial, foi projetada para garantir a segurança dos ativos de nossos usuários.         </p>
+            <p class="mb-4">
+            Estamos especialmente orgulhosos da nossa plataforma de negociação à vista de última geração, que é amplamente reconhecida como uma das mais seguras e confiáveis ​​do setor. No centro do nosso sucesso está o nosso compromisso em fornecer uma experiência de usuário premium, sustentada por uma infraestrutura de segurança robusta.          </p>
+            <p class="mb-4">
+            Estamos constantemente inovando e evoluindo nossa plataforma para atender às necessidades de nossos usuários e nos esforçamos para permanecer na vanguarda do cenário de negociação de criptomoedas. Levamos muito a sério a confiança dos nossos usuários e temos orgulho de sermos um varejista líder no comércio à vista.
             </p>
             <p class="mb-4">
-              We are especially proud of our cutting-edge spot trading platform, which is widely recognized as one of the most secure and reliable in the industry. At the heart of our success is our commitment to providing a premium user experience, underpinned by a robust security infrastructure.
-
+            Nossa missão é fornecer uma plataforma segura e fácil de usar que permita que nossos usuários atinjam seus objetivos de negociação de criptografia.
             </p>
-            <p class="mb-4">
-              We are constantly innovating and evolving our platform to meet the needs of our users, and we strive to remain at the forefront of the crypto trading landscape. We take the trust of our users very seriously, and we are proud to be a leading spot trading retailer.
-
-
-            </p>
-            <p class="mb-4">
-              Our mission is to provide a safe, secure, and easy-to-use platform that enables our users to achieve their crypto trading goals.
-
-
-            </p>
-            <h6 class="display-6 fw-bold">Our Focus</h6>
+            <h6 class="display-6 fw-bold">Nosso foco</h6>
             <div class="d-flex align-items-center mb-2">
               <i class="fa fa-check bg-light text-gold btn-sm-square rounded-circle me-3 fw-bold"></i>
-              <span>Safe and rewarding Crypto Spot Trading Retailers Platform</span>
+              <span>
+Plataforma segura e gratificante para varejistas de negociação Crypto Spot</span>
             </div>
             <div class="d-flex align-items-center mb-2">
               <i class="fa fa-check bg-light text-gold btn-sm-square rounded-circle me-3 fw-bold"></i>
-              <span>Bitcoin Halving Profitability </span>
+              <span>Lucratividade da redução pela metade do Bitcoin </span>
             </div>
             <div class="d-flex align-items-center mb-4">
               <i class="fa fa-check bg-light text-gold btn-sm-square rounded-circle me-3 fw-bold"></i>
-              <span>S.M.A.R.T vision accomplishment on Currency Trading.</span>
+              <span>Realização da visão SMART em negociação de moeda.</span>
             </div>
-            <a class="btn bg-gold text-white py-3 px-4" href="register.php">Join Us</a>
+            <a class="btn bg-gold text-white py-3 px-4" href="register.php">Junte-se a nós</a>
           </div>
         </div>
       </div>
@@ -351,17 +333,17 @@ if (!isset($_SESSION["user"])) {
         <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.1s">
           <img class="img-fluid mb-4" src="img/icon-9.png" alt="" />
           <h1 class="display-4" data-toggle="counter-up">27</h1>
-          <p class="fs-5 text-gold mb-0">Today Transactions</p>
+          <p class="fs-5 text-gold mb-0">Transações de hoje</p>
         </div>
         <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.3s">
           <img class="img-fluid mb-4" src="img/icon-10.png" alt="" />
           <h1 class="display-4" data-toggle="counter-up">1050</h1>
-          <p class="fs-5 text-gold mb-0">Monthly Transactions</p>
+          <p class="fs-5 text-gold mb-0">Transações Mensais</p>
         </div>
         <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.5s">
           <img class="img-fluid mb-4" src="img/icon-2.png" alt="" />
           <h1 class="display-4" data-toggle="counter-up">25002</h1>
-          <p class="fs-5 text-gold mb-0">Total Transactions</p>
+          <p class="fs-5 text-gold mb-0">Total de transações</p>
         </div>
       </div>
     </div>
@@ -372,18 +354,16 @@ if (!isset($_SESSION["user"])) {
   <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
-        <h1 class="display-6">Why Us!</h1>
-        <p class="text-gold fs-5 mb-5">The Best In The crypto Industry</p>
+        <h1 class="display-6">Por que nós!</h1>
+        <p class="text-gold fs-5 mb-5">O melhor da indústria de criptografia</p>
       </div>
       <div class="row g-5 d-flex align-items-center justify-content-center">
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="d-flex align-items-start">
             <img class="img-fluid flex-shrink-0" src="img/icon-7.png" alt="" />
             <div class="ps-4">
-              <h5 class="mb-3">Easy To Start</h5>
-              <span>Our platform is designed for ease of use, from sign-up to
-                trading. Low fees and great rates make it
-                simple to get started.</span>
+              <h5 class="mb-3">Fácil de começar</h5>
+              <span>Nossa plataforma foi projetada para ser fácil de usar, desde a inscrição até a negociação. Taxas baixas e ótimas taxas simplificam o início.</span>
             </div>
           </div>
         </div>
@@ -391,10 +371,8 @@ if (!isset($_SESSION["user"])) {
           <div class="d-flex align-items-start">
             <img class="img-fluid flex-shrink-0" src="img/icon-6.png" alt="" />
             <div class="ps-4">
-              <h5 class="mb-3">Safe & Secure</h5>
-              <span>Your crypto investment is safe and secure with our AI-powered
-                platform. You can trust our advanced algorithms to keep your
-                funds protected and generate the best possible returns.</span>
+              <h5 class="mb-3">Seguro e protegido</h5>
+              <span>Seu investimento em criptografia está seguro e protegido com nossa plataforma alimentada por IA. Você pode confiar em nossos algoritmos avançados para manter seus fundos protegidos e gerar os melhores retornos possíveis.</span>
             </div>
           </div>
         </div>
@@ -402,9 +380,8 @@ if (!isset($_SESSION["user"])) {
           <div class="d-flex align-items-start">
             <img class="img-fluid flex-shrink-0" src="img/icon-5.png" alt="" />
             <div class="ps-4">
-              <h5 class="mb-3">Affordable Plans</h5>
-              <span>Our platform offers a range of options to suit any budget, so
-                you can find the perfect plan for your needs.</span>
+              <h5 class="mb-3">Planos acessíveis</h5>
+              <span>Nossa plataforma oferece uma gama de opções que se adaptam a qualquer orçamento, para que você encontre o plano perfeito para suas necessidades.</span>
             </div>
           </div>
         </div>
@@ -412,9 +389,8 @@ if (!isset($_SESSION["user"])) {
           <div class="d-flex align-items-start">
             <img class="img-fluid flex-shrink-0" src="img/icon-4.png" alt="" />
             <div class="ps-4">
-              <h5 class="mb-3">Secure Storage</h5>
-              <span>Secure storage for your Bitcoin, guaranteed. State-of-the-art
-                security features protect your assets.</span>
+              <h5 class="mb-3">Armazenamento seguro</h5>
+              <span>Armazenamento seguro para o seu Bitcoin, garantido. Recursos de segurança de última geração protegem seus ativos.</span>
             </div>
           </div>
         </div>
@@ -431,10 +407,8 @@ if (!isset($_SESSION["user"])) {
           <div class="d-flex align-items-start">
             <img class="img-fluid flex-shrink-0" src="img/icon-8.png" alt="" />
             <div class="ps-4">
-              <h5 class="mb-3">24/7 Support</h5>
-              <span>"Need help? We're here for you 24/7. Our customer service
-                team is always available to answer your questions and
-                address any concerns.</span>
+              <h5 class="mb-3">Suporte 24 horas por dia, 7 dias por semana</h5>
+              <span>"Precisa de ajuda? Estamos aqui para ajudá-lo 24 horas por dia, 7 dias por semana. Nossa equipe de atendimento ao cliente está sempre disponível para responder às suas perguntas e esclarecer quaisquer dúvidas.</span>
             </div>
           </div>
         </div>
@@ -447,9 +421,9 @@ if (!isset($_SESSION["user"])) {
   <div class="container-xxl bg-light py-5 my-5">
     <div class="container py-5">
       <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
-        <h1 class="display-6">Services</h1>
+        <h1 class="display-6">Serviços</h1>
         <p class="text-gold fs-5 mb-5">
-          Buy, Sell And Arbitrage Cryptocurrency
+        Comprar, vender e arbitrar criptomoedas
         </p>
       </div>
       <div class="row g-4">
@@ -472,35 +446,31 @@ if (!isset($_SESSION["user"])) {
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="service-item bg-white p-5">
             <img class="img-fluid mb-4" src="img/icon-2.png" alt="" />
-            <h5 class="mb-3">Bitcoin Spot Trading Retailer </h5>
+            <h5 class="mb-3">Varejista de negociação à vista de Bitcoin</h5>
             <p>
-              Our company is a leading provider of Bitcoin spot trading services, offering a safe and reliable platform for buyers and sellers. We are committed to providing a smooth and secure trading experience, protecting all parties involved in the transaction. Whether you're looking to make a large or complex purchase, our spot trading services are designed to meet your needs.
+            Nossa empresa é fornecedora líder de serviços de negociação à vista de Bitcoin, oferecendo uma plataforma segura e confiável para compradores e vendedores. Estamos empenhados em fornecer uma experiência comercial tranquila e segura, protegendo todas as partes envolvidas na transação. Quer pretenda fazer uma compra grande ou complexa, os nossos serviços de negociação à vista foram concebidos para satisfazer as suas necessidades.
             </p>
-            <a href="service.php">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+            <a href="service.php">consulte Mais informação <i class="fa fa-arrow-right ms-2"></i></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="service-item bg-white p-5">
             <img class="img-fluid mb-4" src="img/icon-9.png" alt="" />
-            <h5 class="mb-3">Bitcoin Investment</h5>
+            <h5 class="mb-3">Investimento em Bitcoin</h5>
             <p>
-              Bitcoin investment is made simple and smart. With our platform,
-              you can invest in Bitcoin with ease and confidence. Our
-              sophisticated AI algorithms help you make the most of your
-              investment. It's time to take your financial future
-              into your own hands!
+            O investimento em Bitcoin é simples e inteligente. Com nossa plataforma, você pode investir em Bitcoin com facilidade e confiança. Nossos sofisticados algoritmos de IA ajudam você a aproveitar ao máximo seu investimento. É hora de assumir o controle do seu futuro financeiro!
             </p>
-            <a href="service.php">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+            <a href="service.php">consulte Mais informação <i class="fa fa-arrow-right ms-2"></i></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="service-item bg-white p-5">
             <img class="img-fluid mb-4" src="img/icon-5.png" alt="" />
-            <h5 class="mb-3">Cryptocurrency Arbitrage</h5>
+            <h5 class="mb-3">Arbitragem de criptomoeda</h5>
             <p>
-              The future of Cryptocurrency arbitrage is here! Our platform provides a seamless and efficient way to buy, sell and trade Bitcoin and other cryptocurrencies. With our advanced arbitrage technology, you can take advantage of our Spot trading platform to maximize profits. Don't miss out on the opportunities that await you in the world of crypto
+            O futuro da arbitragem de criptomoedas está aqui! Nossa plataforma oferece uma maneira simples e eficiente de comprar, vender e negociar Bitcoin e outras criptomoedas. Com a nossa tecnologia avançada de arbitragem, você pode aproveitar a nossa plataforma de negociação à vista para maximizar os lucros. Não perca as oportunidades que esperam por você no mundo da criptografia
             </p>
-            <a href="service.php">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+            <a href="service.php">consulte Mais informação <i class="fa fa-arrow-right ms-2"></i></a>
           </div>
         </div>
 
@@ -610,11 +580,10 @@ if (!isset($_SESSION["user"])) {
   <!-- testimonials -->
   <div class="testimonials-area pt-100 pb-100">
     <div class="d-flex justify-content-center align-items-center flex-column text-center p-3">
-      <span class="top-title text-gold fs-1">Testimonials</span>
-      <h2>What our customers say</h2>
+      <span class="top-title text-gold fs-1">Depoimentos</span>
+      <h2>O que nossos clientes dizem</h2>
       <p>
-        At Gold Crest, the quality of our service and our goodwill speak for
-        us. A few words from our customers nationwide.
+      Na Gold Crest, a qualidade do nosso serviço e a nossa boa vontade falam por nós. Algumas palavras dos nossos clientes em todo o país.
       </p>
     </div>
   </div>
@@ -630,12 +599,10 @@ if (!isset($_SESSION["user"])) {
                 <img src="assets1/images/testimonials/quote.svg" alt="quote" />
               </div> -->
             <p class="card-text">
-              It's just the best place to invest your money. When it comes to
-              peace of mind, you give me everything. Not a single promise has
-              failed. Please, continue.
+            É simplesmente o melhor lugar para investir seu dinheiro. Quando se trata de paz de espírito, você me dá tudo. Nem uma única promessa falhou. Por favor continue.
             </p>
             <h5 class="card-title">Fransisca Jones</h5>
-            <p class="card-subtitle mb-2 text-muted">B.A.P Investor Wales</p>
+            <p class="card-subtitle mb-2 text-muted">BAP Investidor País de Gales</p>
           </div>
         </div>
       </div>
@@ -649,14 +616,11 @@ if (!isset($_SESSION["user"])) {
                 <img src="assets1/images/testimonials/quote.svg" alt="quote" />
               </div> -->
             <p class="card-text">
-              Just a quick but huge thank you for everything you've done to
-              help us achieve this dream. It's so beautiful - and I'm still in
-              shock about the reality - to move my business to the country of
-              my dreams.
+            Apenas um rápido, mas enorme, obrigado por tudo o que você fez para nos ajudar a realizar esse sonho. É tão lindo – e ainda estou em choque com a realidade – mudar meu negócio para o país dos meus sonhos.
             </p>
             <h5 class="card-title">Michal Bluum</h5>
             <p class="card-subtitle mb-2 text-muted">
-              B.A.P. Investor Australia
+            Investidor BAP Austrália
             </p>
           </div>
         </div>
@@ -671,14 +635,11 @@ if (!isset($_SESSION["user"])) {
                 <img src="assets1/images/testimonials/quote.svg" alt="quote" />
               </div> -->
             <p class="card-text">
-              I am a living testimony of your quality service. I appreciate
-              all your efforts to help business owners. The loan process was
-              simple and faster than local banks. The little investment with
-              you is yielding more than my business.
+            Sou um testemunho vivo do seu serviço de qualidade. Agradeço todos os seus esforços para ajudar os proprietários de empresas. O processo de empréstimo foi simples e mais rápido que os bancos locais. O pouco investimento com você está rendendo mais que o meu negócio.
             </p>
             <h5 class="card-title">Zachary Mallory</h5>
             <p class="card-subtitle mb-2 text-muted">
-              B.A.Plus Investor Luxr
+            BAPlus Investidor Luxr
             </p>
           </div>
         </div>
@@ -690,8 +651,8 @@ if (!isset($_SESSION["user"])) {
   <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
-        <h1 class="display-6">FAQs</h1>
-        <p class="text-gold fs-5 mb-5">Frequently Asked Questions</p>
+        <h1 class="display-6">Perguntas frequentes</h1>
+        <p class="text-gold fs-5 mb-5">perguntas frequentes</p>
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-10">
@@ -699,101 +660,96 @@ if (!isset($_SESSION["user"])) {
             <div class="accordion-item wow fadeInUp" data-wow-delay="0.1s">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  What is cryptocurrency?
+                O que é criptomoeda?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Digital or virtual currency using cryptography for security.
+                Moeda digital ou virtual usando criptografia para segurança.
                 </div>
               </div>
             </div>
             <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  How to trade crypto on Gold Crest?
+                Como negociar criptografia no Gold Crest?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Choose an arbitrage package, create an account, and purchase
-                  using fiat.
+                Escolha um pacote de arbitragem, crie uma conta e compre usando moeda fiduciária.
                 </div>
               </div>
             </div>
             <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Which cryptocurrencies to invest in?
+                Em quais criptomoedas investir?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Popular options like Bitcoin and Ethereum, etc.
+                Opções populares como Bitcoin e Ethereum, etc.
                 </div>
               </div>
             </div>
             <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                  Is crypto investment risky?
+                O investimento em criptografia é arriscado?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Yes, prices can be volatile; be prepared for potential gains
-                  and losses.
+                Sim, os preços podem ser voláteis; esteja preparado para ganhos e perdas potenciais.
                 </div>
               </div>
             </div>
             <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
               <h2 class="accordion-header" id="headingFive">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  What is a blockchain?
+                O que é um blockchain?
                 </button>
               </h2>
               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  A decentralized, distributed ledger technology underlying
-                  most cryptocurrencies.
+                Uma tecnologia de contabilidade descentralizada e distribuída subjacente à maioria das criptomoedas.
                 </div>
               </div>
             </div>
             <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
               <h2 class="accordion-header" id="headingSix">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  Tax implications of crypto gains on Gold Crest?
+                Implicações fiscais dos ganhos criptográficos no Gold Crest?
                 </button>
               </h2>
               <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  You are entitled to agreed payout, Gold Crest sort Tax
-                  payments.
+                Você tem direito ao pagamento acordado, pagamentos de impostos classificados como Gold Crest.
                 </div>
               </div>
             </div>
             <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s">
               <h2 class="accordion-header" id="headingSeven">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                  How to avoid scams?
+                Como evitar fraudes?
                 </button>
               </h2>
               <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Be cautious of fraudulent schemes, verify sources, and use
-                  secure platforms.
+                Tenha cuidado com esquemas fraudulentos, verifique as fontes e use plataformas seguras.
                 </div>
               </div>
             </div>
             <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
               <h2 class="accordion-header" id="headingEight">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                  Should I follow market trends?
+                Devo seguir as tendências do mercado?
                 </button>
               </h2>
               <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Keep informed, but trade decision rely solely on Goldcrest.
+                Keep informed, but trade decision rely solely on Goldcrest.
                 </div>
               </div>
             </div>
@@ -812,31 +768,24 @@ if (!isset($_SESSION["user"])) {
           <a href="index.html" class="d-flex align-items-center">
             <img class="img-fluid me-2" src="img/logo_2.png" alt="" style="width: 200px" />
           </a>
-          <span>With the financial landscape rapidly evolving, crypto is leading
-            the way in revolutionizing the way we think about money. As more
-            and more people turn to crypto as a way to invest and transact,
-            it's clear that this technology is here to stay. Gold Crest
-            Opportunity is a premium crypto platform that empowers users to
-            harness the potential of crypto and make their money work harder.
-            If you're looking for a way to get involved in the crypto
-            revolution, this is the platform for you.</span>
+          <span>Com o cenário financeiro em rápida evolução, a criptografia está liderando o caminho para revolucionar a maneira como pensamos sobre o dinheiro. À medida que mais e mais pessoas recorrem à criptografia como forma de investir e fazer transações, fica claro que essa tecnologia veio para ficar. Gold Crest Opportunity é uma plataforma de criptografia premium que permite aos usuários aproveitar o potencial da criptografia e fazer seu dinheiro trabalhar mais. Se você está procurando uma maneira de se envolver na revolução criptográfica, esta é a plataforma para você.</span>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Our Services</h5>
-          <a class="btn btn-link" href="service.php">Cryptocurrency Arbitrage
+          <h5 class="mb-4">Nossos serviços</h5>
+          <a class="btn btn-link" href="service.php">Arbitragem de criptomoeda
           </a>
-          <a class="btn btn-link" href="service.php">Bitcion Spot Trading Service</a>
-          <a class="btn btn-link" href="service.php">Bitcoin investment</a>
+          <a class="btn btn-link" href="service.php">BServiço de negociação à vista de Bitcoin</a>
+          <a class="btn btn-link" href="service.php">Investimento em bitcoins</a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Quick Links</h5>
-          <a class="btn btn-link" href="#">Home</a>
-          <a class="btn btn-link" href="service.php">Services</a>
-          <a class="btn btn-link" href="product.php">Products</a>
-          <a class="btn btn-link" href="contact.php">Contact Us</a>
+          <h5 class="mb-4">Links Rápidos</h5>
+          <a class="btn btn-link" href="#">Lar</a>
+          <a class="btn btn-link" href="service.php">Serviços</a>
+          <a class="btn btn-link" href="product.php">Produtos</a>
+          <a class="btn btn-link" href="contact.php">Contato</a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Get In Touch</h5>
+          <h5 class="mb-4">Entrar em contato</h5>
           <p>
             <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
           </p>
