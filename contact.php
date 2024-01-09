@@ -10,7 +10,7 @@ if (!isset($_SESSION["user"])) {
 
 <head>
   <meta charset="utf-8" />
-  <title>Gold Crest | Contact Us</title>
+  <title>Gold Crest | Contate-nos</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="" name="keywords" />
   <meta content="" name="description" />
@@ -55,11 +55,11 @@ if (!isset($_SESSION["user"])) {
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav ms-auto py-4 py-lg-0">
-        <a href="home.php" class="nav-item nav-link active">Home</a>
-        <a href="service.php" class="nav-item nav-link">Services</a>
-        <a href="product.php" class="nav-item nav-link">Products</a>
-        <a href="#" class="nav-item nav-link">Contact</a>
-        <a href="logout.php" class="nav-item nav-link">Logout</a>
+        <a href="home.php" class="nav-item nav-link active">Lar</a>
+        <a href="service.php" class="nav-item nav-link">Serviços</a>
+        <a href="product.php" class="nav-item nav-link">Produtos</a>
+        <a href="#" class="nav-item nav-link">Contato</a>
+        <a href="logout.php" class="nav-item nav-link">Sair</a>
       </div>
       <!-- <div class="h-100 d-lg-inline-flex align-items-center d-none">
           <a
@@ -87,23 +87,23 @@ if (!isset($_SESSION["user"])) {
     <div class="container py-5">
       <div class="row g-5 align-items-center">
         <div class="col-lg-6">
-          <h1 class="display-4 mb-3 animated slideInDown">Contact Us</h1>
+          <h1 class="display-4 mb-3 animated slideInDown">Contate-nos</h1>
           <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb mb-0">
               <li class="breadcrumb-item">
-                <a href="home.php" class="text-gold">Home</a>
+                <a href="home.php" class="text-gold">Lar</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="service.php" class="text-gold">Services</a>
+                <a href="service.php" class="text-gold">Serviços</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="product.php" class="text-gold">Products</a>
+                <a href="product.php" class="text-gold">Produtos</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="register.php" class="text-gold">Registration</a>
+                <a href="register.php" class="text-gold">Cadastro</a>
               </li>
               <li class="breadcrumb-item active" aria-current="page">
-                Contact Us
+                Contate-nos
               </li>
             </ol>
           </nav>
@@ -121,9 +121,9 @@ if (!isset($_SESSION["user"])) {
     <div class="container">
       <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="col-lg-6">
-          <h1 class="display-6">Contact Us</h1>
+          <h1 class="display-6">Contate-nos</h1>
           <p class="text-gold fs-5 mb-0">
-            If You Have Any Query, Please Contact Us
+            Se você tiver alguma dúvida, entre em contato conosco
           </p>
         </div>
         <!-- <div class="col-lg-6 text-lg-end">
@@ -132,13 +132,13 @@ if (!isset($_SESSION["user"])) {
       </div>
       <div class="row g-5">
         <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <p class="mb-2">Our office:</p>
-          <h4>123 Street, New York, USA</h4>
+          <p class="mb-2">Nosso escritório:</p>
+          <h4>Rua 123, Nova York, EUA</h4>
           <hr class="w-100" />
-          <p class="mb-2">Call us:</p>
+          <p class="mb-2">Ligue para nós:</p>
           <h4>+012 345 6789</h4>
           <hr class="w-100" />
-          <p class="mb-2">Mail us:</p>
+          <p class="mb-2">Envie-nos:</p>
           <h4>info@cristadeouro.com</h4>
           <hr class="w-100" />
           <!-- <p class="mb-2">Follow us:</p> -->
@@ -159,40 +159,41 @@ if (!isset($_SESSION["user"])) {
         </div>
         <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <p class="mb-4">
-            Contact us to start your Bitcoin trading journey or gather more
-            information about our trading platform. Our experts are ready to
-            provide you with all the details you need for your future trading
-            endeavors.
+            Contate-nos para iniciar sua jornada de negociação de Bitcoin ou obter mais informações sobre nossa plataforma de negociação. Nossos especialistas estão prontos para fornecer todos os detalhes que você precisa para seus futuros empreendimentos comerciais.
           </p>
           <form action="https://formsubmit.co/info@cristadeouro.com" method="POST">
             <div class="row g-3">
               <div class="col-md-6">
                 <div class="form-floating">
-                  <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" />
-                  <label for="name">Your Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Seu nome" />
+                  <label for="name">Seu nome</label>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-floating">
-                  <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" />
-                  <label for="email">Your Email</label>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="Seu email
+" />
+                  <label for="email">Seu email
+                    l</label>
                 </div>
               </div>
               <div class="col-12">
                 <div class="form-floating">
-                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" />
-                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Assunto
+" />
+                  <label for="subject">Assunto
+                  </label>
                 </div>
               </div>
               <div class="col-12">
                 <div class="form-floating">
-                  <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px"></textarea>
-                  <label for="message">Message</label>
+                  <textarea class="form-control" placeholder="Deixe uma mensagem aqui" id="message" name="message" style="height: 100px"></textarea>
+                  <label for="message">Mensagem</label>
                 </div>
               </div>
               <div class="col-12">
                 <button class="btn bg-gold text-white py-3 px-4" type="submit">
-                  Send Message
+                  Enviar mensagem
                 </button>
               </div>
             </div>
@@ -217,31 +218,24 @@ if (!isset($_SESSION["user"])) {
           <a href="index.html" class="d-flex align-items-center">
             <img class="img-fluid me-2" src="img/logo_2.png" alt="" style="width: 200px" />
           </a>
-          <span>With the financial landscape rapidly evolving, crypto is leading
-            the way in revolutionizing the way we think about money. As more
-            and more people turn to crypto as a way to invest and transact,
-            it's clear that this technology is here to stay. Gold Crest
-            Opportunity is a premium crypto platform that empowers users to
-            harness the potential of crypto and make their money work harder.
-            If you're looking for a way to get involved in the crypto
-            revolution, this is the platform for you.</span>
+          <span>Com o cenário financeiro em rápida evolução, a criptografia está liderando o caminho para revolucionar a maneira como pensamos sobre o dinheiro. À medida que mais e mais pessoas recorrem à criptografia como forma de investir e fazer transações, fica claro que essa tecnologia veio para ficar. Gold Crest Opportunity é uma plataforma de criptografia premium que permite aos usuários aproveitar o potencial da criptografia e fazer seu dinheiro trabalhar mais. Se você está procurando uma maneira de se envolver na revolução criptográfica, esta é a plataforma para você.</span>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Our Services</h5>
-          <a class="btn btn-link" href="service.php">Cryptocurrency Arbitrage
+          <h5 class="mb-4">Nossos serviços</h5>
+          <a class="btn btn-link" href="service.php">Arbitragem de criptomoeda
           </a>
-          <a class="btn btn-link" href="service.php">Bitcoin Escrow </a>
-          <a class="btn btn-link" href="service.php">Bitcoin investment</a>
+          <a class="btn btn-link" href="service.php">BServiço de negociação à vista de Bitcoin</a>
+          <a class="btn btn-link" href="service.php">Investimento em bitcoins</a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Quick Links</h5>
-          <a class="btn btn-link" href="home.php">Home</a>
-          <a class="btn btn-link" href="service.php">Services</a>
-          <a class="btn btn-link" href="product.php">Products</a>
-          <a class="btn btn-link" href="#">Contact Us</a>
+          <h5 class="mb-4">Links Rápidos</h5>
+          <a class="btn btn-link" href="home.php">Lar</a>
+          <a class="btn btn-link" href="service.php">Serviços</a>
+          <a class="btn btn-link" href="product.php">Produtos</a>
+          <a class="btn btn-link" href="#">Contato</a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Get In Touch</h5>
+          <h5 class="mb-4">Entrar em contato</h5>
           <p>
             <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
           </p>
@@ -252,25 +246,25 @@ if (!isset($_SESSION["user"])) {
         </div>
 
         <!-- <div class="col-lg-3 col-md-6">
-                   <h5 class="mb-4">Follow Us</h5>
-                   <div class="d-flex">
-                       <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
-                       <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                       <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
-                       <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                   </div>
-               </div> -->
+                    <h5 class="mb-4">Follow Us</h5>
+                    <div class="d-flex">
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div> -->
       </div>
     </div>
     <!-- <div class="container-fluid copyright">
-           <div class="container">
-               <div class="row">
-                   <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                       &copy; <a href="#">Gold Crest</a>, All Right Reserved.
-                   </div>
-               </div>
-           </div>
-       </div> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Gold Crest</a>, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div> -->
   </div>
   <!-- Footer End -->
 

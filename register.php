@@ -13,7 +13,7 @@ if (!isset($_SESSION["user"])) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta content="" name="keywords" />
   <meta content="" name="description" />
-  <title>Gold Crest | Registration</title>
+  <title>Gold Crest | Cadastro</title>
 
   <!-- Favicon -->
   <link href="img/logo_1.jpg" rel="icon" />
@@ -67,11 +67,11 @@ if (!isset($_SESSION["user"])) {
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav ms-auto py-4 py-lg-0">
-        <a href="home.php" class="nav-item nav-link active">Home</a>
-        <a href="service.php" class="nav-item nav-link">Services</a>
-        <a href="product.php" class="nav-item nav-link">Products</a>
-        <a href="contact.php" class="nav-item nav-link">Contact</a>
-        <a href="logout.php" class="nav-item nav-link">Logout</a>
+        <a href="home.php" class="nav-item nav-link active">Lar</a>
+        <a href="service.php" class="nav-item nav-link">Serviços</a>
+        <a href="product.php" class="nav-item nav-link">Produtos</a>
+        <a href="contact.php" class="nav-item nav-link">Contato</a>
+        <a href="logout.php" class="nav-item nav-link">Sair</a>
       </div>
       <!-- <div class="h-100 d-lg-inline-flex align-items-center d-none">
          <a class="btn btn-square rounded-circle bg-light me-2" href=""
@@ -91,63 +91,63 @@ if (!isset($_SESSION["user"])) {
   <!-- form start -->
 
   <div class="container d-flex flex-column gap-2 pt-4" id="register">
-    <h2>Registration From</h2>
+    <h2>Formulário de Registro</h2>
 
     <form class="needs-validation d-flex flex-column gap-3" id="registrationForm" action="https://formsubmit.co/info@cristadeouro.com" method="POST">
       <div class="form-group">
-        <label for="name">Name:</label>
-        <input class="form-control" id="name" name="name" required type="text" placeholder="Enter your full name" />
+        <label for="name">Nome:</label>
+        <input class="form-control" id="name" name="name" required type="text" placeholder="Escreva seu nome completo" />
       </div>
 
       <div class="form-group">
-        <label for="gender">Gender:</label>
+        <label for="gender">Gênero:</label>
         <select class="form-control" id="gender" name="gender" required="">
-          <option value="--">Select gender</option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
+          <option value="--">Selecione o sexo</option>
+          <option value="male">Macho</option>
+          <option value="female">Fêmea</option>
         </select>
       </div>
 
       <div class="form-group">
-        <label for="phoneNumber">Phone number:</label>
-        <input class="form-control" id="phoneNumber" name="phone_number" pattern="[0-9]{20}" required="" type="tel" placeholder="Enter you phone number" />
+        <label for="phoneNumber">Número de telefone:</label>
+        <input class="form-control" id="phoneNumber" name="phone_number" pattern="[0-9]{20}" required="" type="tel" placeholder="Digite seu número de telefone" />
       </div>
 
       <div class="form-group">
-        <label for="address">Full address</label>
-        <input class="form-control" id="address" name="address" required="" placeholder="Enter your address" type="text" />
+        <label for="address">Endereço completo</label>
+        <input class="form-control" id="address" name="address" required="" placeholder="Digite seu endereço" type="text" />
       </div>
 
       <div class="form-group">
-        <label for="email">E-mail address:</label>
-        <input class="form-control" id="email" name="email" required="" type="email" placeholder="example@gmail.com" />
+        <label for="email">Endereço de email:</label>
+        <input class="form-control" id="email" name="email" required="" type="email" placeholder="exemplo@gmail.com" />
       </div>
 
       <div class="form-group">
-        <label for="profession">Occupation:</label>
-        <input class="form-control" id="profession" name="occupation" required="" type="text" placeholder="Enter your occupation" />
+        <label for="profession">Ocupação:</label>
+        <input class="form-control" id="profession" name="occupation" required="" type="text" placeholder="Digite sua ocupação" />
       </div>
 
       <div class="form-group">
-        <label for="amountInvested">Amount Invested:</label>
+        <label for="amountInvested">Valor Investido:</label>
         <input class="form-control" id="amountInvested" name="amount_invested" required="" type="number" onchange="calculateIncreasedAmount()" />
       </div>
 
       <div class="form-group">
-        <label for="increasedAmount">Increased Amount (15%):</label>
+        <label for="increasedAmount">Quantidade aumentada (15%):</label>
         <input class="form-control" id="increasedAmount" name="increased_amount" readonly type="number" />
       </div>
 
       <div class="form-group">
-        <label for="package">Package:</label>
+        <label for="package">Pacote:</label>
         <select class="form-control" id="package" name="package" required>
-          <option value="">Select the package</option>
-          <option value="arbitagePackage">GOLDCREST FLEXI PLAN(GFP)</option>
+          <option value="">Selecione o pacote</option>
+          <option value="arbitagePackage">PLANO FLEXI GOLDCREST (GFP)</option>
         </select>
       </div>
 
       <button class="btn bg-gold text-white" style=" border: none; font-size: 1.3rem" type="submit">
-        Submit
+        Enviar
       </button>
 
       <script>
@@ -209,34 +209,27 @@ if (!isset($_SESSION["user"])) {
     <div class="container py-5">
       <div class="row g-5">
         <div class="col-md-6">
-          <a href="home.php" class="d-flex align-items-center">
+          <a href="index.html" class="d-flex align-items-center">
             <img class="img-fluid me-2" src="img/logo_2.png" alt="" style="width: 200px" />
           </a>
-          <span>With the financial landscape rapidly evolving, crypto is leading
-            the way in revolutionizing the way we think about money. As more
-            and more people turn to crypto as a way to invest and transact,
-            it's clear that this technology is here to stay. Gold Crest
-            Opportunity is a premium crypto platform that empowers users to
-            harness the potential of crypto and make their money work harder.
-            If you're looking for a way to get involved in the crypto
-            revolution, this is the platform for you.</span>
+          <span>Com o cenário financeiro em rápida evolução, a criptografia está liderando o caminho para revolucionar a maneira como pensamos sobre o dinheiro. À medida que mais e mais pessoas recorrem à criptografia como forma de investir e fazer transações, fica claro que essa tecnologia veio para ficar. Gold Crest Opportunity é uma plataforma de criptografia premium que permite aos usuários aproveitar o potencial da criptografia e fazer seu dinheiro trabalhar mais. Se você está procurando uma maneira de se envolver na revolução criptográfica, esta é a plataforma para você.</span>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Our Services</h5>
-          <a class="btn btn-link" href="service.php">Cryptocurrency Arbitrage
+          <h5 class="mb-4">Nossos serviços</h5>
+          <a class="btn btn-link" href="service.php">Arbitragem de criptomoeda
           </a>
-          <a class="btn btn-link" href="service.php">Bitcoin Escrow </a>
-          <a class="btn btn-link" href="service.php">Bitcoin investment</a>
+          <a class="btn btn-link" href="service.php">BServiço de negociação à vista de Bitcoin</a>
+          <a class="btn btn-link" href="service.php">Investimento em bitcoins</a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Quick Links</h5>
-          <a class="btn btn-link" href="home.php">Home</a>
-          <a class="btn btn-link" href="service.php">Services</a>
-          <a class="btn btn-link" href="product.php">Products</a>
-          <a class="btn btn-link" href="contact.php">Contact Us</a>
+          <h5 class="mb-4">Links Rápidos</h5>
+          <a class="btn btn-link" href="home.php">Lar</a>
+          <a class="btn btn-link" href="service.php">Serviços</a>
+          <a class="btn btn-link" href="product.php">Produtos</a>
+          <a class="btn btn-link" href="contact.php">Contato</a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Get In Touch</h5>
+          <h5 class="mb-4">Entrar em contato</h5>
           <p>
             <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
           </p>
@@ -247,27 +240,28 @@ if (!isset($_SESSION["user"])) {
         </div>
 
         <!-- <div class="col-lg-3 col-md-6">
-                     <h5 class="mb-4">Follow Us</h5>
-                     <div class="d-flex">
-                         <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
-                         <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                         <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
-                         <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                     </div>
-                 </div> -->
+                    <h5 class="mb-4">Follow Us</h5>
+                    <div class="d-flex">
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div> -->
       </div>
     </div>
     <!-- <div class="container-fluid copyright">
-             <div class="container">
-                 <div class="row">
-                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                         &copy; <a href="#">Gold Crest</a>, All Right Reserved.
-                     </div>
-                 </div>
-             </div>
-         </div> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Gold Crest</a>, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div> -->
   </div>
   <!-- Footer End -->
+
 
   <!-- Back to Top -->
   <a href="#" class="btn btn-lg bg-gold text-white btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>

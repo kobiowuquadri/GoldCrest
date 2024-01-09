@@ -10,7 +10,7 @@ if (!isset($_SESSION["user"])) {
 
 <head>
   <meta charset="utf-8" />
-  <title>Gold Crest | Products</title>
+  <title>Gold Crest | Produtos</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="" name="keywords" />
   <meta content="" name="description" />
@@ -55,11 +55,11 @@ if (!isset($_SESSION["user"])) {
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav ms-auto py-4 py-lg-0">
-        <a href="home.php" class="nav-item nav-link active">Home</a>
-        <a href="service.php" class="nav-item nav-link">Services</a>
-        <a href="product.php" class="nav-item nav-link">Products</a>
-        <a href="contact.php" class="nav-item nav-link">Contact</a>
-        <a href="logout.php" class="nav-item nav-link">Logout</a>
+        <a href="home.php" class="nav-item nav-link active">Lar</a>
+        <a href="service.php" class="nav-item nav-link">Serviços</a>
+        <a href="product.php" class="nav-item nav-link">Produtos</a>
+        <a href="contact.php" class="nav-item nav-link">Contato</a>
+        <a href="logout.php" class="nav-item nav-link">Sair</a>
       </div>
       <!-- <div class="h-100 d-lg-inline-flex align-items-center d-none">
                 <a class="btn btn-square rounded-circle bg-light me-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -76,24 +76,24 @@ if (!isset($_SESSION["user"])) {
       <div class="row g-5 align-items-center">
         <div class="col-lg-6">
           <h1 class="display-4 mb-3 animated slideInDown">
-            PRODUCTS ROADMAP
+          ROTEIRO DE PRODUTOS
           </h1>
           <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb mb-0">
               <li class="breadcrumb-item">
-                <a href="home.php" class="text-gold">Home</a>
+                <a href="home.php" class="text-gold">Lar</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="service.php" class="text-gold">Services</a>
+                <a href="service.php" class="text-gold">Serviços</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="contact.php" class="text-gold">Contact</a>
+                <a href="contact.php" class="text-gold">Contato</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="registration.php" class="text-gold">Registration</a>
+                <a href="register.php" class="text-gold">Cadastro</a>
               </li>
               <li class="breadcrumb-item active" aria-current="page">
-                Products Roadmap
+              Roteiro de produtos
               </li>
             </ol>
           </nav>
@@ -109,29 +109,29 @@ if (!isset($_SESSION["user"])) {
   <div class="pricing-plans-area pt-100 pb-70">
     <div class="container">
       <div class="section-title">
-        <span class="top-title">Our Investment plan</span>
-        <h2>We offer a Client-Oriented, profitable investment solution</h2>
+        <span class="top-title">Nosso plano de investimento</span>
+        <h2>Oferecemos uma solução de investimento rentável e orientada para o cliente</h2>
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-4 col-md-6">
           <div class="single-pricing-plan-card">
-            <h3 style="font-weight:bold;">GOLDCREST FLEXI PLAN(GFP)</h3>
+            <h3 style="font-weight:bold;">PLANO FLEXI GOLDCREST (GFP)</h3>
             <div class="pricing-box">
-              <h4>1.5%</h4>
-              <p>Every working day</p>
+              <h4>1,5%</h4>
+              <p>Todos os dias úteis</p>
             </div>
             <ul class="pricing-list">
-              <li>Min Capital: 11,000 MZN </li>
-              <li>Max Capital: Unlimited </li>
-              <li>Duration: 2 weeks Maturity </li>
+              <li>Capital Mínimo: 11.000 MZN </li>
+              <li>Capital Máximo: Ilimitado </li>
+              <li>Duração: 2 semanas Maturidade </li>
             </ul>
-            <h3>ADVANTAGE:</h3>
+            <h3>VANTAGEM:</h3>
             <ul class="benefit">
-              <li>15% total interest after two weeks</li>
-              <li>Dedicated customer service 24 hours a day</li>
-              <li>Priority access to exclusive packages and launch.</li>
+              <li>15% de juros totais após duas semanas</li>
+              <li>Atendimento ao cliente dedicado 24 horas por dia</li>
+              <li>Acesso prioritário a pacotes e lançamentos exclusivos.</li>
             </ul>
-            <a href="register.php" class="default-btn btn">JOIN NOW</a>
+            <a href="register.php" class="default-btn btn">ENTRAR</a>
           </div>
         </div>
         <!-- <div class="col-lg-4 col-md-6">
@@ -159,35 +159,35 @@ if (!isset($_SESSION["user"])) {
   <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
-        <h1 class="display-6">Investment Roadmap</h1>
+        <h1 class="display-6">Roteiro de Investimento</h1>
         <p class="text-gold fs-5 mb-5">
-          We Translate Your Dream Into Reality
+        Traduzimos o seu sonho em realidade
         </p>
       </div>
       <div class="owl-carousel roadmap-carousel wow fadeInUp" data-wow-delay="0.1s">
         <div class="roadmap-item">
           <div class="roadmap-point"><span></span></div>
-          <h5>Registration</h5>
+          <h5>Cadastro</h5>
           <!-- <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span> -->
         </div>
         <div class="roadmap-item">
           <div class="roadmap-point"><span></span></div>
-          <h5>Payment</h5>
+          <h5>Pagamento</h5>
           <!-- <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span> -->
         </div>
         <div class="roadmap-item">
           <div class="roadmap-point"><span></span></div>
-          <h5>Payment Validation</h5>
+          <h5>Validação de Pagamento</h5>
           <!-- <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span> -->
         </div>
         <div class="roadmap-item">
           <div class="roadmap-point"><span></span></div>
-          <h5>Holding Period</h5>
+          <h5>Período de espera</h5>
           <!-- <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span> -->
         </div>
         <div class="roadmap-item">
           <div class="roadmap-point"><span></span></div>
-          <h5>Portfolio Return</h5>
+          <h5>Devolução do portfólio</h5>
           <!-- <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span> -->
         </div>
         <!-- <div class="roadmap-item">
@@ -203,39 +203,32 @@ if (!isset($_SESSION["user"])) {
 
 
 
-  <!-- Footer Start -->
-  <div class="container-fluid bg-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+ <!-- Footer Start -->
+ <div class="container-fluid bg-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
       <div class="row g-5">
         <div class="col-md-6">
-          <a href="home.php" class="d-flex align-items-center">
+          <a href="index.html" class="d-flex align-items-center">
             <img class="img-fluid me-2" src="img/logo_2.png" alt="" style="width: 200px" />
           </a>
-          <span>With the financial landscape rapidly evolving, crypto is leading
-            the way in revolutionizing the way we think about money. As more
-            and more people turn to crypto as a way to invest and transact,
-            it's clear that this technology is here to stay. Gold Crest
-            Opportunity is a premium crypto platform that empowers users to
-            harness the potential of crypto and make their money work harder.
-            If you're looking for a way to get involved in the crypto
-            revolution, this is the platform for you.</span>
+          <span>Com o cenário financeiro em rápida evolução, a criptografia está liderando o caminho para revolucionar a maneira como pensamos sobre o dinheiro. À medida que mais e mais pessoas recorrem à criptografia como forma de investir e fazer transações, fica claro que essa tecnologia veio para ficar. Gold Crest Opportunity é uma plataforma de criptografia premium que permite aos usuários aproveitar o potencial da criptografia e fazer seu dinheiro trabalhar mais. Se você está procurando uma maneira de se envolver na revolução criptográfica, esta é a plataforma para você.</span>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Our Services</h5>
-          <a class="btn btn-link" href="service.php">Cryptocurrency Arbitrage
+          <h5 class="mb-4">Nossos serviços</h5>
+          <a class="btn btn-link" href="service.php">Arbitragem de criptomoeda
           </a>
-          <a class="btn btn-link" href="service.php">Bitcoin Escrow </a>
-          <a class="btn btn-link" href="service.php">Bitcoin investment</a>
+          <a class="btn btn-link" href="service.php">BServiço de negociação à vista de Bitcoin</a>
+          <a class="btn btn-link" href="service.php">Investimento em bitcoins</a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Quick Links</h5>
-          <a class="btn btn-link" href="home.php">Home</a>
-          <a class="btn btn-link" href="service.php">Services</a>
-          <a class="btn btn-link" href="#">Products</a>
-          <a class="btn btn-link" href="contact.php">Contact Us</a>
+          <h5 class="mb-4">Links Rápidos</h5>
+          <a class="btn btn-link" href="home.php">Lar</a>
+          <a class="btn btn-link" href="service.php">Serviços</a>
+          <a class="btn btn-link" href="#">Produtos</a>
+          <a class="btn btn-link" href="contact.php">Contato</a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Get In Touch</h5>
+          <h5 class="mb-4">Entrar em contato</h5>
           <p>
             <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
           </p>
@@ -246,25 +239,25 @@ if (!isset($_SESSION["user"])) {
         </div>
 
         <!-- <div class="col-lg-3 col-md-6">
-              <h5 class="mb-4">Follow Us</h5>
-              <div class="d-flex">
-                  <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
-                  <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                  <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
-                  <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-              </div>
-          </div> -->
+                    <h5 class="mb-4">Follow Us</h5>
+                    <div class="d-flex">
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div> -->
       </div>
     </div>
     <!-- <div class="container-fluid copyright">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                  &copy; <a href="#">Gold Crest</a>, All Right Reserved.
-              </div>
-          </div>
-      </div>
-  </div> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Gold Crest</a>, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div> -->
   </div>
   <!-- Footer End -->
 

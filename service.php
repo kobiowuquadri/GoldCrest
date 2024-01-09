@@ -11,7 +11,7 @@ if (!isset($_SESSION["user"])) {
 
 <head>
   <meta charset="utf-8" />
-  <title>Gold Crest | Services</title>
+  <title>Gold Crest | Serviços</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="" name="keywords" />
   <meta content="" name="description" />
@@ -56,11 +56,11 @@ if (!isset($_SESSION["user"])) {
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav ms-auto py-4 py-lg-0">
-        <a href="home.php" class="nav-item nav-link">Home</a>
-        <a href="service.php" class="nav-item nav-link active">Services</a>
-        <a href="product.php" class="nav-item nav-link">Products</a>
-        <a href="contact.php" class="nav-item nav-link">Contact</a>
-        <a href="logout.php" class="nav-item nav-link">Logout</a>
+        <a href="home.php" class="nav-item nav-link">Lar</a>
+        <a href="service.php" class="nav-item nav-link active">Serviços</a>
+        <a href="product.php" class="nav-item nav-link">Produtos</a>
+        <a href="contact.php" class="nav-item nav-link">Contato</a>
+        <a href="logout.php" class="nav-item nav-link">Sair</a>
       </div>
       <!-- <div class="h-100 d-lg-inline-flex align-items-center d-none">
           <a
@@ -88,23 +88,23 @@ if (!isset($_SESSION["user"])) {
     <div class="container py-5">
       <div class="row g-5 align-items-center">
         <div class="col-lg-6">
-          <h1 class="display-4 mb-3 animated slideInDown">Services</h1>
+          <h1 class="display-4 mb-3 animated slideInDown">Serviços</h1>
           <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb mb-0">
               <li class="breadcrumb-item">
-                <a href="home.php" class="text-gold">Home</a>
+                <a href="home.php" class="text-gold">Lar</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="product.php" class="text-gold">Products</a>
+                <a href="product.php" class="text-gold">Produtos</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="contact.php" class="text-gold">Contact</a>
+                <a href="contact.php" class="text-gold">Contato</a>
               </li>
               <li class="breadcrumb-item">
-                <a href="registration.php" class="text-gold">Registration</a>
+                <a href="register.php" class="text-gold">Cadastro</a>
               </li>
               <li class="breadcrumb-item active" aria-current="page">
-                Services
+              Serviços
               </li>
             </ol>
           </nav>
@@ -121,10 +121,9 @@ if (!isset($_SESSION["user"])) {
   <div class="container-xxl bg-light py-5 my-5">
     <div class="container py-5">
       <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
-        <h1 class="display-6">Services</h1>
+        <h1 class="display-6">Serviços</h1>
         <p class="text-gold fs-5 mb-5">
-          Buy, Sell And Cryptocurrency Arbitrage
-        </p>
+        Compra, Venda e Arbitragem de Criptomoedas        </p>
       </div>
       <div class="row g-4">
         <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -146,13 +145,12 @@ if (!isset($_SESSION["user"])) {
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="service-item bg-white p-5">
             <img class="img-fluid mb-4" src="img/icon-2.png" alt="" />
-            <h5 class="mb-3">Bitcoin spot trading retailer platform</h5>
+            <h5 class="mb-3">Plataforma varejista de negociação à vista de Bitcoin</h5>
             <p>
-              Gold Crest is a leading Bitcoin spot trading retailer platform, providing a secure and user-friendly environment for users to trade Bitcoin at the current market price. With our advanced trading and intuitive tools, you can execute quick and simple trades with confidence. Whether you're a beginner or a seasoned trader, Gold Crest has everything you need to succeed in the world of crypto spot trading.
-
+            Gold Crest é uma plataforma varejista líder de negociação à vista de Bitcoin, que oferece um ambiente seguro e fácil de usar para os usuários negociarem Bitcoin ao preço de mercado atual. Com nossas ferramentas avançadas de negociação e intuitivas, você pode executar negociações rápidas e simples com confiança. Quer você seja um trader iniciante ou experiente, Gold Crest tem tudo que você precisa para ter sucesso no mundo da negociação à vista de criptografia.
             </p>
             <p>
-              Bitcoin spot trading is the process of buying and selling Bitcoin instantly at the current market price. Unlike futures trading, which involves contracts based on future prices, spot trading is focused on the present market. Spot traders can take advantage of short-term price movements, buying when the price is low and selling when it's high. Spot traders can use either fiat currency or other cryptocurrencies to make their trades. While spot trading can be a high-risk, high-reward activity, Gold Crest simplifies the process with its easy-to-use platform which reduces subscribers' exposure to risk.
+            A negociação à vista de Bitcoin é o processo de compra e venda de Bitcoin instantaneamente ao preço de mercado atual. Ao contrário da negociação de futuros, que envolve contratos baseados em preços futuros, a negociação à vista concentra-se no mercado atual. Os traders à vista podem tirar vantagem dos movimentos de preços de curto prazo, comprando quando o preço está baixo e vendendo quando está alto. Os comerciantes à vista podem usar moeda fiduciária ou outras criptomoedas para fazer suas negociações. Embora a negociação à vista possa ser uma atividade de alto risco e alta recompensa, a Gold Crest simplifica o processo com a sua plataforma fácil de usar, que reduz a exposição dos assinantes ao risco.
             </p>
             <!-- <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a> -->
           </div>
@@ -160,29 +158,12 @@ if (!isset($_SESSION["user"])) {
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="service-item bg-white p-5">
             <img class="img-fluid mb-4" src="img/icon-9.png" alt="" />
-            <h5 class="mb-3">Bitcoin Investment</h5>
+            <h5 class="mb-3">Investimento em Bitcoin</h5>
             <p>
-              Our advanced digital currency investment platform provides a
-              streamlined and reliable solution for individuals and
-              institutions seeking to maximize the potential of their Bitcoin
-              and cryptocurrency portfolios. Our sophisticated AI algorithms
-              provide real-time market insights and recommendations, allowing
-              you to make informed investment decisions. We offer a secure,
-              user-friendly interface that makes it easy to buy, sell, and
-              trade digital currencies. With our platform, you can focus on
-              growing your wealth with confidence." Pick up a
-              portfolio package today.
+            Nossa avançada plataforma de investimento em moeda digital oferece uma solução simplificada e confiável para indivíduos e instituições que buscam maximizar o potencial de seus portfólios de Bitcoins e criptomoedas. Nossos sofisticados algoritmos de IA fornecem insights e recomendações de mercado em tempo real, permitindo que você tome decisões de investimento informadas. Oferecemos uma interface segura e fácil de usar que facilita a compra, venda e negociação de moedas digitais. Com nossa plataforma, você pode se concentrar em aumentar seu patrimônio com confiança." Adquira um pacote de portfólio hoje mesmo.
             </p>
             <p>
-              Our AI algorithms are designed to provide actionable insights
-              and recommendations, based on real-time market data and
-              historical trends. The algorithms are constantly learning and
-              adapting, ensuring that they remain at the cutting edge of
-              market analysis and prediction. With our AI-powered platform,
-              you can make informed investment decisions with confidence,
-              knowing that you're making the most of the latest data and
-              technology. Let our AI algorithms do the heavy lifting, so you
-              can focus on making the best possible investments.
+            Nossos algoritmos de IA são projetados para fornecer insights e recomendações acionáveis, com base em dados de mercado em tempo real e tendências históricas. Os algoritmos estão em constante aprendizagem e adaptação, garantindo que permaneçam na vanguarda da análise e previsão de mercado. Com nossa plataforma baseada em IA, você pode tomar decisões de investimento informadas e com confiança, sabendo que está aproveitando ao máximo os dados e a tecnologia mais recentes. Deixe que nossos algoritmos de IA façam o trabalho pesado, para que você possa se concentrar em fazer os melhores investimentos possíveis.
             </p>
             <!-- <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a> -->
           </div>
@@ -190,29 +171,12 @@ if (!isset($_SESSION["user"])) {
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="service-item bg-white p-5">
             <img class="img-fluid mb-4" src="img/icon-5.png" alt="" />
-            <h5 class="mb-3">Currency Arbitrage</h5>
+            <h5 class="mb-3">Arbitragem Cambial</h5>
             <p>
-              By automating the process of finding and exploiting arbitrage
-              opportunities across multiple arbitrages, our platform eliminates
-              the need for time-consuming and error-prone manual analysis.
-              This allows you to focus on making more trades, and ultimately,
-              more profits. We provide a simple and intuitive user interface,
-              making it easy for anyone to take advantage of the power of our
-              technology. With the potential to earn significant returns on
-              your crypto investments, our platform offers a cutting-edge
-              solution for the savvy investors.
+            Ao automatizar o processo de localização e exploração de oportunidades de arbitragem em múltiplas arbitragens, nossa plataforma elimina a necessidade de análises manuais demoradas e propensas a erros. Isso permite que você se concentre em fazer mais negociações e, em última análise, em mais lucros. Fornecemos uma interface de usuário simples e intuitiva, facilitando para qualquer pessoa aproveitar o poder de nossa tecnologia. Com potencial para obter retornos significativos sobre seus investimentos em criptografia, nossa plataforma oferece uma solução de ponta para investidores experientes.
             </p>
             <p>
-              Our platform utilizes advanced machine learning algorithms to
-              monitor and analyze prices across a wide range of cryptocurrency
-              arbitrages. These algorithms identify opportunities for
-              arbitrage, which are then automatically executed by our trading
-              bots. The bots are designed to minimize transaction costs and
-              maximize profits, making them a highly efficient and
-              cost-effective way to take advantage of the crypto markets. In
-              addition, our platform is designed to protect your investments
-              by implementing security measures such as two-factor
-              authentication and cold storage for crypto funds.
+            Nossa plataforma utiliza algoritmos avançados de aprendizado de máquina para monitorar e analisar preços em uma ampla gama de arbitragens de criptomoedas. Estes algoritmos identificam oportunidades de arbitragem, que são então executadas automaticamente pelos nossos bots de negociação. Os bots são projetados para minimizar os custos de transação e maximizar os lucros, tornando-os uma forma altamente eficiente e econômica de aproveitar as vantagens dos mercados criptográficos. Além disso, nossa plataforma foi projetada para proteger seus investimentos, implementando medidas de segurança como autenticação de dois fatores e armazenamento refrigerado para fundos criptográficos.
             </p>
             <!-- <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a> -->
           </div>
@@ -230,6 +194,7 @@ if (!isset($_SESSION["user"])) {
     </div>
   </div>
 
+  
   <!-- Footer Start -->
   <div class="container-fluid bg-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
@@ -238,30 +203,24 @@ if (!isset($_SESSION["user"])) {
           <a href="index.html" class="d-flex align-items-center">
             <img class="img-fluid me-2" src="img/logo_2.png" alt="" style="width: 200px" />
           </a>
-          <span>With the financial landscape rapidly evolving, crypto is leading
-            the way in revolutionizing the way we think about money. As more
-            and more people turn to crypto as a way to invest and transact,
-            it's clear that this technology is here to stay. Gold Crest
-            Opportunity is a premium crypto platform that empowers users to
-            harness the potential of crypto and make their money work harder.
-            If you're looking for a way to get involved in the crypto
-            revolution, this is the platform for you.</span>
+          <span>Com o cenário financeiro em rápida evolução, a criptografia está liderando o caminho para revolucionar a maneira como pensamos sobre o dinheiro. À medida que mais e mais pessoas recorrem à criptografia como forma de investir e fazer transações, fica claro que essa tecnologia veio para ficar. Gold Crest Opportunity é uma plataforma de criptografia premium que permite aos usuários aproveitar o potencial da criptografia e fazer seu dinheiro trabalhar mais. Se você está procurando uma maneira de se envolver na revolução criptográfica, esta é a plataforma para você.</span>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Our Services</h5>
-          <a class="btn btn-link" href="service.php">Cryptocurrency Arbitrage </a>
-          <a class="btn btn-link" href="service.php">Bitcoin Escrow </a>
-          <a class="btn btn-link" href="service.php">Bitcoin investment</a>
+          <h5 class="mb-4">Nossos serviços</h5>
+          <a class="btn btn-link" href="service.php">Arbitragem de criptomoeda
+          </a>
+          <a class="btn btn-link" href="service.php">BServiço de negociação à vista de Bitcoin</a>
+          <a class="btn btn-link" href="service.php">Investimento em bitcoins</a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Quick Links</h5>
-          <a class="btn btn-link" href="home.php">Home</a>
-          <a class="btn btn-link" href="#">Services</a>
-          <a class="btn btn-link" href="product.php">Products</a>
-          <a class="btn btn-link" href="contact.php">Contact Us</a>
+          <h5 class="mb-4">Links Rápidos</h5>
+          <a class="btn btn-link" href="home.php">Lar</a>
+          <a class="btn btn-link" href="#">Serviços</a>
+          <a class="btn btn-link" href="product.php">Produtos</a>
+          <a class="btn btn-link" href="contact.php">Contato</a>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="mb-4">Get In Touch</h5>
+          <h5 class="mb-4">Entrar em contato</h5>
           <p>
             <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
           </p>
